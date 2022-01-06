@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "UCU_CARGA_FICHA_DOCENTE", "UCU_CARGA_FICHA_DOCENTE.dtproj", "{7A4DF552-2DA4-4FDF-93A0-D4353B14BC18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A4DF552-2DA4-4FDF-93A0-D4353B14BC18}.Development|Default.ActiveCfg = Development
+		{7A4DF552-2DA4-4FDF-93A0-D4353B14BC18}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F99DC77-1902-44BD-9143-A49B02F4ADA4}
+	EndGlobalSection
+EndGlobal
