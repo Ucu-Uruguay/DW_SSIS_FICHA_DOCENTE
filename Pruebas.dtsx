@@ -13,12 +13,441 @@
   DTS:MaxErrorCount="0"
   DTS:ObjectName="Pruebas"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="35"
-  DTS:VersionGUID="{D7E7C5B2-B48A-40C9-8830-AF88F52C86CD}">
+  DTS:VersionBuild="38"
+  DTS:VersionGUID="{8D3F9CF3-F018-4268-82DB-FED88F62D7FB}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.DW_UCU]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{01739095-1645-42B6-8D9A-A83AC4D68895}"
+      DTS:ObjectName="PROD-UCUDBS10\POWERBI.DW_UCU">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=PROD-UCUDBS10\POWERBI;Initial Catalog=DW_UCU;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
   <DTS:Variables />
-  <DTS:Executables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Cargos Magix"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tarea Flujo de datos"
+      DTS:DTSID="{5EB2237A-6C71-4AD5-8DBD-B2E3618E0D95}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Cargos Magix"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Cargos Magix\Columna derivada"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Columna derivada;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+              description="Crea nuevos valores de columna aplicando expresiones a las columnas de entrada de la transformación. Crea nuevas columnas o sobrescribe las columnas existentes. Por ejemplo, se concatenan los valores de las columnas 'nombre' y 'apellidos' para crear una columna 'nombre completo'."
+              name="Columna derivada"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Cargos Magix\Columna derivada.Inputs[Entrada de columna derivada]"
+                  description="Entrada en la transformación Columna derivada"
+                  name="Entrada de columna derivada">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Cargos Magix\Columna derivada.Inputs[Entrada de columna derivada].Columns[CARGO_ID]"
+                      cachedDataType="numeric"
+                      cachedName="CARGO_ID"
+                      cachedPrecision="18"
+                      lineageId="Package\Cargos Magix\Origen de OLE DB.Outputs[Salida de origen de OLE DB].Columns[CARGO_ID]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Cargos Magix\Columna derivada.Outputs[Salida de columna derivada]"
+                  description="Salida predeterminada de la transformación Columna derivada"
+                  exclusionGroup="1"
+                  name="Salida de columna derivada"
+                  synchronousInputId="Package\Cargos Magix\Columna derivada.Inputs[Entrada de columna derivada]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cargos Magix\Columna derivada.Outputs[Salida de columna derivada].Columns[clave]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Cálculo"
+                      errorRowDisposition="FailComponent"
+                      length="5"
+                      lineageId="Package\Cargos Magix\Columna derivada.Outputs[Salida de columna derivada].Columns[clave]"
+                      name="clave"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión de columna derivada"
+                          name="Expression">"M" + (DT_WSTR,4)#{Package\Cargos Magix\Origen de OLE DB.Outputs[Salida de origen de OLE DB].Columns[CARGO_ID]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión descriptiva de columna derivada"
+                          expressionType="Notify"
+                          name="FriendlyExpression">"M" + (DT_WSTR,4)CARGO_ID</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cargos Magix\Columna derivada.Outputs[Salida de columna derivada].Columns[source]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Cálculo"
+                      errorRowDisposition="FailComponent"
+                      length="5"
+                      lineageId="Package\Cargos Magix\Columna derivada.Outputs[Salida de columna derivada].Columns[source]"
+                      name="source"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión de columna derivada"
+                          name="Expression">"MAGIX"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión descriptiva de columna derivada"
+                          expressionType="Notify"
+                          name="FriendlyExpression">"MAGIX"</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Cargos Magix\Columna derivada.Outputs[Salida de error de columna derivada]"
+                  description="Salida de error de la transformación Columna derivada"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de columna derivada"
+                  synchronousInputId="Package\Cargos Magix\Columna derivada.Inputs[Entrada de columna derivada]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cargos Magix\Columna derivada.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Cargos Magix\Columna derivada.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Cargos Magix\Columna derivada.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Cargos Magix\Columna derivada.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Cargos Magix\Destino de OLE DB"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destino de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;4"
+              description="Destino de OLE DB"
+              name="Destino de OLE DB"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowset">[dbo].[DT_Cargo]</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Fuerza el uso del valor de la propiedad DefaultCodePage al describir datos de caracteres."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si los valores proporcionados para columnas de identidad se van a copiar al destino. Si es False, los valores de las columnas de identidad se generan automáticamente en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si las columnas que contienen NULL tendrán NULL insertado en el destino. Si es False, las columnas que contienen NULL tendrán sus valores predeterminados insertados en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica opciones para usar con la carga rápida. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica cuándo se emiten confirmaciones durante la inserción de datos. El valor 0 especifica que se emitirá una confirmación al final de la inserción de datos. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Cargos Magix\Destino de OLE DB.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.DW_UCU]"
+                  connectionManagerRefId="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.DW_UCU]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Cargos Magix\Destino de OLE DB.Inputs[Entrada de destino de OLE DB]"
+                  errorOrTruncationOperation="Insertar"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrada de destino de OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Cargos Magix\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[clave]"
+                      cachedDataType="wstr"
+                      cachedLength="5"
+                      cachedName="clave"
+                      externalMetadataColumnId="Package\Cargos Magix\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[clave]"
+                      lineageId="Package\Cargos Magix\Columna derivada.Outputs[Salida de columna derivada].Columns[clave]" />
+                    <inputColumn
+                      refId="Package\Cargos Magix\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[source]"
+                      cachedDataType="wstr"
+                      cachedLength="5"
+                      cachedName="source"
+                      externalMetadataColumnId="Package\Cargos Magix\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[source]"
+                      lineageId="Package\Cargos Magix\Columna derivada.Outputs[Salida de columna derivada].Columns[source]" />
+                    <inputColumn
+                      refId="Package\Cargos Magix\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[CARGO_ID]"
+                      cachedDataType="numeric"
+                      cachedName="CARGO_ID"
+                      cachedPrecision="18"
+                      externalMetadataColumnId="Package\Cargos Magix\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[CarId]"
+                      lineageId="Package\Cargos Magix\Origen de OLE DB.Outputs[Salida de origen de OLE DB].Columns[CARGO_ID]" />
+                    <inputColumn
+                      refId="Package\Cargos Magix\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[CARGO_DESCR]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="CARGO_DESCR"
+                      externalMetadataColumnId="Package\Cargos Magix\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[CarDesc1]"
+                      lineageId="Package\Cargos Magix\Origen de OLE DB.Outputs[Salida de origen de OLE DB].Columns[CARGO_DESCR]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Cargos Magix\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[CarId]"
+                      dataType="i2"
+                      name="CarId" />
+                    <externalMetadataColumn
+                      refId="Package\Cargos Magix\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[CarDesc1]"
+                      dataType="wstr"
+                      length="100"
+                      name="CarDesc1" />
+                    <externalMetadataColumn
+                      refId="Package\Cargos Magix\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[clave]"
+                      dataType="wstr"
+                      length="7"
+                      name="clave" />
+                    <externalMetadataColumn
+                      refId="Package\Cargos Magix\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[source]"
+                      dataType="wstr"
+                      length="5"
+                      name="source" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Cargos Magix\Destino de OLE DB.Outputs[Salida de error de destino de OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de destino de OLE DB"
+                  synchronousInputId="Package\Cargos Magix\Destino de OLE DB.Inputs[Entrada de destino de OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cargos Magix\Destino de OLE DB.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Cargos Magix\Destino de OLE DB.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Cargos Magix\Destino de OLE DB.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Cargos Magix\Destino de OLE DB.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Cargos Magix\Origen de OLE DB"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="Origen de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;7"
+              description="Origen de OLE DB"
+              name="Origen de OLE DB"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowset"></property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">Select DISTINCT CARGO_ID, CARGO_DESCR
+from DW_DESIGNACIONES_DOCENTES</property>
+                <property
+                  dataType="System.String"
+                  description="Variable que contiene el comando SQL para ejecutar."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Fuerza el uso del valor de la propiedad DefaultCodePage al describir datos de caracteres."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  name="AccessMode"
+                  typeConverter="AccessMode">2</property>
+                <property
+                  dataType="System.String"
+                  description="Asignaciones entre los parámetros del comando SQL y las variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Cargos Magix\Origen de OLE DB.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.DW_UCU]"
+                  connectionManagerRefId="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.DW_UCU]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Cargos Magix\Origen de OLE DB.Outputs[Salida de origen de OLE DB]"
+                  name="Salida de origen de OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cargos Magix\Origen de OLE DB.Outputs[Salida de origen de OLE DB].Columns[CARGO_ID]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargos Magix\Origen de OLE DB.Outputs[Salida de origen de OLE DB].ExternalColumns[CARGO_ID]"
+                      lineageId="Package\Cargos Magix\Origen de OLE DB.Outputs[Salida de origen de OLE DB].Columns[CARGO_ID]"
+                      name="CARGO_ID"
+                      precision="18"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Cargos Magix\Origen de OLE DB.Outputs[Salida de origen de OLE DB].Columns[CARGO_DESCR]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargos Magix\Origen de OLE DB.Outputs[Salida de origen de OLE DB].ExternalColumns[CARGO_DESCR]"
+                      length="100"
+                      lineageId="Package\Cargos Magix\Origen de OLE DB.Outputs[Salida de origen de OLE DB].Columns[CARGO_DESCR]"
+                      name="CARGO_DESCR"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Cargos Magix\Origen de OLE DB.Outputs[Salida de origen de OLE DB].ExternalColumns[CARGO_ID]"
+                      dataType="numeric"
+                      name="CARGO_ID"
+                      precision="18" />
+                    <externalMetadataColumn
+                      refId="Package\Cargos Magix\Origen de OLE DB.Outputs[Salida de origen de OLE DB].ExternalColumns[CARGO_DESCR]"
+                      dataType="wstr"
+                      length="100"
+                      name="CARGO_DESCR" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Cargos Magix\Origen de OLE DB.Outputs[Salida de error de origen de OLE DB]"
+                  isErrorOut="true"
+                  name="Salida de error de origen de OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cargos Magix\Origen de OLE DB.Outputs[Salida de error de origen de OLE DB].Columns[CARGO_ID]"
+                      dataType="numeric"
+                      lineageId="Package\Cargos Magix\Origen de OLE DB.Outputs[Salida de error de origen de OLE DB].Columns[CARGO_ID]"
+                      name="CARGO_ID"
+                      precision="18" />
+                    <outputColumn
+                      refId="Package\Cargos Magix\Origen de OLE DB.Outputs[Salida de error de origen de OLE DB].Columns[CARGO_DESCR]"
+                      dataType="wstr"
+                      length="100"
+                      lineageId="Package\Cargos Magix\Origen de OLE DB.Outputs[Salida de error de origen de OLE DB].Columns[CARGO_DESCR]"
+                      name="CARGO_DESCR" />
+                    <outputColumn
+                      refId="Package\Cargos Magix\Origen de OLE DB.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Cargos Magix\Origen de OLE DB.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Cargos Magix\Origen de OLE DB.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Cargos Magix\Origen de OLE DB.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Cargos Magix.Paths[Salida de columna derivada]"
+              endId="Package\Cargos Magix\Destino de OLE DB.Inputs[Entrada de destino de OLE DB]"
+              name="Salida de columna derivada"
+              startId="Package\Cargos Magix\Columna derivada.Outputs[Salida de columna derivada]" />
+            <path
+              refId="Package\Cargos Magix.Paths[Salida de origen de OLE DB]"
+              endId="Package\Cargos Magix\Columna derivada.Inputs[Entrada de columna derivada]"
+              name="Salida de origen de OLE DB"
+              startId="Package\Cargos Magix\Origen de OLE DB.Outputs[Salida de origen de OLE DB]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
 <!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
@@ -26,5 +455,114 @@
 <Objects
   Version="8">
   <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="142,42"
+          Id="Package\Cargos Magix"
+          TopLeft="5.5,5.5" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Cargos Magix">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="164,42"
+          Id="Package\Cargos Magix\Origen de OLE DB"
+          TopLeft="5.5,30.5" />
+        <NodeLayout
+          Size="164,42"
+          Id="Package\Cargos Magix\Columna derivada"
+          TopLeft="264.5,47.5" />
+        <EdgeLayout
+          Id="Package\Cargos Magix.Paths[Salida de origen de OLE DB]"
+          TopLeft="169.5,51.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="95,17"
+              Start="0,0"
+              End="87.5,17">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="43.5,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="43.5,0"
+                    Point2="47.5,0"
+                    Point3="47.5,4" />
+                  <mssgle:LineSegment
+                    End="47.5,13" />
+                  <mssgle:CubicBezierSegment
+                    Point1="47.5,13"
+                    Point2="47.5,17"
+                    Point3="51.5,17" />
+                  <mssgle:LineSegment
+                    End="87.5,17" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="168,42"
+          Id="Package\Cargos Magix\Destino de OLE DB"
+          TopLeft="513.5,40.5" />
+        <EdgeLayout
+          Id="Package\Cargos Magix.Paths[Salida de columna derivada]"
+          TopLeft="428.5,65">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="85,0"
+              Start="0,0"
+              End="77.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="77.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargos Magix\Origen de OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargos Magix\Destino de OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
 </Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>

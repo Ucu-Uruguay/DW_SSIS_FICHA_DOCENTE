@@ -12,8 +12,8 @@
   DTS:ObjectName="FichaDocente"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="163"
-  DTS:VersionGUID="{D64DA4E1-CE0D-40DB-B4B0-0A7D8588002B}">
+  DTS:VersionBuild="166"
+  DTS:VersionGUID="{3A211C6B-6122-4DA8-B116-7F1EDB7334BE}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,12 +27,12 @@
           DTS:ConnectionString="Data Source=10.245.0.30;User ID=Saico_DW;Initial Catalog=UCU;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="jwT2NrTHjFA="
-            IV="k5pabF6/ioc0jM7QVmO2uA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="yhXEvDRrqp8="
+            IV="jm9wU2G9Dk0vSfIkhRD06A==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>k5pabF6/ioc0jM7QVmO2uLXgXc+h+z2yHHpTok7NV7yfdTIH3x/n8grBkJWwgT7hB2bqgCsxowbjvg0pnUYKQliFwX38I3fgqjxpEcdLDtXGDcWwff3pj/THa1H/gk9YRfst7pda6nInD+OlSMmciQbd2/olOZABQ8Uuge8vfD18JJdiCBuTzG0f+qrq1v7O</CipherValue>
+              <CipherValue>jm9wU2G9Dk0vSfIkhRD06D7K3FO53FH2ESe3FNTpY4AjE+CgNBWTFRnAEPRMunu1aJmFP74JZsL3plQWKwuAi97LP2+vTCJLixuZ6ANABv8AjMK3lUKQknqZTIfKHfmSwBuGz/hG99BlLeFkR/4FK4bfyPYyk1bC0dXqFvI62MdmD+UxZ09OzsncFT9hLXKA</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -48,12 +48,12 @@
           DTS:ConnectionString="Data Source=10.245.0.6;User ID=nodum_read;Initial Catalog=Nodum_Prod;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="h18DnHW0Ons="
-            IV="WKWrKxs1vc231UaU6omQ/A==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="nL0Lybk6Ebo="
+            IV="Qbx65N2zWX7xgJMprGyihQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>WKWrKxs1vc231UaU6omQ/FMmjr0pNi/+ELGIl0O4tR/3R5TlHrKEb58SfYqVVZw2tcAh/kqRwPTb7S3yxGWSbTTpWaJzRKcAi5MHxyIiJPyBbGDn86glT2wAVllHThYf5fXKvS8DVPXzjge/Xbd67ej7t2n4shB6z0+ePuxnS5CrfwlUyNz/Y/YQPjhvb7Zr</CipherValue>
+              <CipherValue>Qbx65N2zWX7xgJMprGyihXPZvUiZFqNoUWb47ULtAVElBtTAqqwaYFWChzpyj/Q/gK/FIctiQw5zBsbnQuG6GrKFv+4ped4T+BxC4X26S1EN5fKlwRek+AReiLrKk550hrF67RKkYBenBqGwrX0+piSCxSuwJXBeq/2nb5AirRsG86uIp1cAcaJDox/fnWIg</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -69,12 +69,12 @@
           DTS:ConnectionString="Data Source=PROD-UCUDBS10\POWERBI;User ID=rcalvo;Initial Catalog=DW_UCU;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=false;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="5xC5WBCET0E="
-            IV="tNSq49vVIhBCZk3T0VbLQQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="qiIeW8oNzAU="
+            IV="QYLVf79851PcGILVxqtybg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>tNSq49vVIhBCZk3T0VbLQZyYYeXX0JlDWCgvzEmNin8Sigl3biT2/4QaL8mnFQ5HccRJOiMjq/9Qe7+nN9DNSzXsyYWYbAAWL80l40/8EjHM2d7tP5YW6fw+18iACFR4vuUsjQb8yUK7cVdIotxZbAEC94AR5IX+NbjBRfx2jcRQrWf5EG47LFX9bdbOMzbr</CipherValue>
+              <CipherValue>QYLVf79851PcGILVxqtybvsgw5p15tgWHWvSuuDqJCevf4Lpj7rPqDbO//ul08rp3m+2FEak7OdjWHl3VDrkGau9Gm5qnlqyEriMjPtQqBOgtV261D55ZGu45fERT8GNlsC3Z/EdKCYOq6U6LeK2V3gTYaAEFx39NNkiMnLcTNnbmhJ8ZPyjxYiTqqHa80lb</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -92,6 +92,16 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.DW_UCU]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{01739095-1645-42B6-8D9A-A83AC4D68895}"
+      DTS:ObjectName="PROD-UCUDBS10\POWERBI.DW_UCU">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=PROD-UCUDBS10\POWERBI;Initial Catalog=DW_UCU;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[SourceConnectionAdoNET]"
       DTS:CreationName="ADO.NET:System.Data.Odbc.OdbcConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
       DTS:DTSID="{ED97BBAF-6DFB-46C5-B186-4FAAFCC4FD70}"
@@ -101,12 +111,12 @@
           DTS:ConnectionString="uid=postgres;Dsn=PostgreSQL30Uni;Driver={PostgreSQL ODBC DRIVER(ANSI)};">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="qkgQ849WODc="
-            IV="BPuTYfb/Le+YAbnmVQVOSg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="FNDQsJ4i5p0="
+            IV="jbRPYAwTyBum0U9LE7ErUw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>BPuTYfb/Le+YAbnmVQVOSthbwl1DYuS88VjQrajhG3gcEzK2PoXE4kj4ypL5/8wfJJO+adzp3YApgEnUTvobkTm6acYrdE1fgrBo3WWKW7Bf46lcIpWtkGdVlqVhUJgtVYehAV3/NpwXFOCMfs33lfw5qVos10xhsRlIucCZ4J0=</CipherValue>
+              <CipherValue>jbRPYAwTyBum0U9LE7ErU/setmsWcvxVnuy5Xm1pvnF2sRtCTy83STIPv78JoJfsp4AjLKD4A752CGuiRm4yVsZ4JcNGUDauxtzK8ffdyiauyX6FCdwjUgT7/IAKpN3jTA/EtoxfAvxKFODWfuKMG9993CMIVM6phaMoYyMVXtc=</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -4717,6 +4727,156 @@ where fecha_carga = (select max(j.fecha_carga) from  "CVUY_UCU_resp".ods.anii_fo
           version="1">
           <components>
             <component
+              refId="Package\Carga funcionarios Saico\Agrega a DT_Cargo"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destino de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;4"
+              description="Destino de OLE DB"
+              name="Agrega a DT_Cargo"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowset">[dbo].[DT_Cargo]</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Fuerza el uso del valor de la propiedad DefaultCodePage al describir datos de caracteres."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si los valores proporcionados para columnas de identidad se van a copiar al destino. Si es False, los valores de las columnas de identidad se generan automáticamente en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si las columnas que contienen NULL tendrán NULL insertado en el destino. Si es False, las columnas que contienen NULL tendrán sus valores predeterminados insertados en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica opciones para usar con la carga rápida. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica cuándo se emiten confirmaciones durante la inserción de datos. El valor 0 especifica que se emitirá una confirmación al final de la inserción de datos. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Carga funcionarios Saico\Agrega a DT_Cargo.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.DW_UCU]"
+                  connectionManagerRefId="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.DW_UCU]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Carga funcionarios Saico\Agrega a DT_Cargo.Inputs[Entrada de destino de OLE DB]"
+                  errorOrTruncationOperation="Insertar"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrada de destino de OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Carga funcionarios Saico\Agrega a DT_Cargo.Inputs[Entrada de destino de OLE DB].Columns[clave]"
+                      cachedDataType="wstr"
+                      cachedLength="5"
+                      cachedName="clave"
+                      externalMetadataColumnId="Package\Carga funcionarios Saico\Agrega a DT_Cargo.Inputs[Entrada de destino de OLE DB].ExternalColumns[clave]"
+                      lineageId="Package\Carga funcionarios Saico\Columna derivada.Outputs[Salida de columna derivada].Columns[clave]" />
+                    <inputColumn
+                      refId="Package\Carga funcionarios Saico\Agrega a DT_Cargo.Inputs[Entrada de destino de OLE DB].Columns[source]"
+                      cachedDataType="wstr"
+                      cachedLength="5"
+                      cachedName="source"
+                      externalMetadataColumnId="Package\Carga funcionarios Saico\Agrega a DT_Cargo.Inputs[Entrada de destino de OLE DB].ExternalColumns[source]"
+                      lineageId="Package\Carga funcionarios Saico\Columna derivada.Outputs[Salida de columna derivada].Columns[source]" />
+                    <inputColumn
+                      refId="Package\Carga funcionarios Saico\Agrega a DT_Cargo.Inputs[Entrada de destino de OLE DB].Columns[CARGO_ID]"
+                      cachedDataType="numeric"
+                      cachedName="CARGO_ID"
+                      cachedPrecision="18"
+                      externalMetadataColumnId="Package\Carga funcionarios Saico\Agrega a DT_Cargo.Inputs[Entrada de destino de OLE DB].ExternalColumns[CarId]"
+                      lineageId="Package\Carga funcionarios Saico\Extrae cargos MAGIX.Outputs[Salida de origen de OLE DB].Columns[CARGO_ID]" />
+                    <inputColumn
+                      refId="Package\Carga funcionarios Saico\Agrega a DT_Cargo.Inputs[Entrada de destino de OLE DB].Columns[CARGO_DESCR]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="CARGO_DESCR"
+                      externalMetadataColumnId="Package\Carga funcionarios Saico\Agrega a DT_Cargo.Inputs[Entrada de destino de OLE DB].ExternalColumns[CarDesc1]"
+                      lineageId="Package\Carga funcionarios Saico\Extrae cargos MAGIX.Outputs[Salida de origen de OLE DB].Columns[CARGO_DESCR]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Carga funcionarios Saico\Agrega a DT_Cargo.Inputs[Entrada de destino de OLE DB].ExternalColumns[CarId]"
+                      dataType="i2"
+                      name="CarId" />
+                    <externalMetadataColumn
+                      refId="Package\Carga funcionarios Saico\Agrega a DT_Cargo.Inputs[Entrada de destino de OLE DB].ExternalColumns[CarDesc1]"
+                      dataType="wstr"
+                      length="100"
+                      name="CarDesc1" />
+                    <externalMetadataColumn
+                      refId="Package\Carga funcionarios Saico\Agrega a DT_Cargo.Inputs[Entrada de destino de OLE DB].ExternalColumns[clave]"
+                      dataType="wstr"
+                      length="7"
+                      name="clave" />
+                    <externalMetadataColumn
+                      refId="Package\Carga funcionarios Saico\Agrega a DT_Cargo.Inputs[Entrada de destino de OLE DB].ExternalColumns[source]"
+                      dataType="wstr"
+                      length="5"
+                      name="source" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Carga funcionarios Saico\Agrega a DT_Cargo.Outputs[Salida de error de destino de OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de destino de OLE DB"
+                  synchronousInputId="Package\Carga funcionarios Saico\Agrega a DT_Cargo.Inputs[Entrada de destino de OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga funcionarios Saico\Agrega a DT_Cargo.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Carga funcionarios Saico\Agrega a DT_Cargo.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Carga funcionarios Saico\Agrega a DT_Cargo.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Carga funcionarios Saico\Agrega a DT_Cargo.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\Carga funcionarios Saico\Agrega clave y source"
               componentClassID="Microsoft.DerivedColumn"
               contactInfo="Columna derivada;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
@@ -4733,7 +4893,7 @@ where fecha_carga = (select max(j.fecha_carga) from  "CVUY_UCU_resp".ods.anii_fo
                       refId="Package\Carga funcionarios Saico\Agrega clave y source.Inputs[Entrada de columna derivada].Columns[CarId]"
                       cachedDataType="i2"
                       cachedName="CarId"
-                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].Columns[CarId]" />
+                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].Columns[CarId]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -4760,7 +4920,7 @@ where fecha_carga = (select max(j.fecha_carga) from  "CVUY_UCU_resp".ods.anii_fo
                           containsID="true"
                           dataType="System.String"
                           description="Expresión de columna derivada"
-                          name="Expression">"S" + (DT_WSTR,6)#{Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].Columns[CarId]}</property>
+                          name="Expression">"S" + (DT_WSTR,6)#{Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].Columns[CarId]}</property>
                         <property
                           containsID="true"
                           dataType="System.String"
@@ -4813,6 +4973,189 @@ where fecha_carga = (select max(j.fecha_carga) from  "CVUY_UCU_resp".ods.anii_fo
                       refId="Package\Carga funcionarios Saico\Agrega clave y source.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
                       dataType="i4"
                       lineageId="Package\Carga funcionarios Saico\Agrega clave y source.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Carga funcionarios Saico\Columna derivada"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Columna derivada;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+              description="Crea nuevos valores de columna aplicando expresiones a las columnas de entrada de la transformación. Crea nuevas columnas o sobrescribe las columnas existentes. Por ejemplo, se concatenan los valores de las columnas 'nombre' y 'apellidos' para crear una columna 'nombre completo'."
+              name="Columna derivada"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Carga funcionarios Saico\Columna derivada.Inputs[Entrada de columna derivada]"
+                  description="Entrada en la transformación Columna derivada"
+                  name="Entrada de columna derivada">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Carga funcionarios Saico\Columna derivada.Inputs[Entrada de columna derivada].Columns[CARGO_ID]"
+                      cachedDataType="numeric"
+                      cachedName="CARGO_ID"
+                      cachedPrecision="18"
+                      lineageId="Package\Carga funcionarios Saico\Extrae cargos MAGIX.Outputs[Salida de origen de OLE DB].Columns[CARGO_ID]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Carga funcionarios Saico\Columna derivada.Outputs[Salida de columna derivada]"
+                  description="Salida predeterminada de la transformación Columna derivada"
+                  exclusionGroup="1"
+                  name="Salida de columna derivada"
+                  synchronousInputId="Package\Carga funcionarios Saico\Columna derivada.Inputs[Entrada de columna derivada]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga funcionarios Saico\Columna derivada.Outputs[Salida de columna derivada].Columns[clave]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Cálculo"
+                      errorRowDisposition="FailComponent"
+                      length="5"
+                      lineageId="Package\Carga funcionarios Saico\Columna derivada.Outputs[Salida de columna derivada].Columns[clave]"
+                      name="clave"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión de columna derivada"
+                          name="Expression">"M" + (DT_WSTR,4)#{Package\Carga funcionarios Saico\Extrae cargos MAGIX.Outputs[Salida de origen de OLE DB].Columns[CARGO_ID]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión descriptiva de columna derivada"
+                          expressionType="Notify"
+                          name="FriendlyExpression">"M" + (DT_WSTR,4)CARGO_ID</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga funcionarios Saico\Columna derivada.Outputs[Salida de columna derivada].Columns[source]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Cálculo"
+                      errorRowDisposition="FailComponent"
+                      length="5"
+                      lineageId="Package\Carga funcionarios Saico\Columna derivada.Outputs[Salida de columna derivada].Columns[source]"
+                      name="source"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión de columna derivada"
+                          name="Expression">"MAGIX"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión descriptiva de columna derivada"
+                          expressionType="Notify"
+                          name="FriendlyExpression">"MAGIX"</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Carga funcionarios Saico\Columna derivada.Outputs[Salida de error de columna derivada]"
+                  description="Salida de error de la transformación Columna derivada"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de columna derivada"
+                  synchronousInputId="Package\Carga funcionarios Saico\Columna derivada.Inputs[Entrada de columna derivada]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga funcionarios Saico\Columna derivada.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Carga funcionarios Saico\Columna derivada.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Carga funcionarios Saico\Columna derivada.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Carga funcionarios Saico\Columna derivada.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Carga funcionarios Saico\Conversión de datos"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Conversión de datos;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+              description="Conversión de datos"
+              name="Conversión de datos"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Carga funcionarios Saico\Conversión de datos.Inputs[Entrada de conversión de datos]"
+                  name="Entrada de conversión de datos">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Carga funcionarios Saico\Conversión de datos.Inputs[Entrada de conversión de datos].Columns[CarDesc1]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="20"
+                      cachedName="CarDesc1"
+                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].Columns[CarDesc1]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Carga funcionarios Saico\Conversión de datos.Outputs[Salida de conversión de datos]"
+                  exclusionGroup="1"
+                  name="Salida de conversión de datos"
+                  synchronousInputId="Package\Carga funcionarios Saico\Conversión de datos.Inputs[Entrada de conversión de datos]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga funcionarios Saico\Conversión de datos.Outputs[Salida de conversión de datos].Columns[UnicodeCarDesc1]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      length="20"
+                      lineageId="Package\Carga funcionarios Saico\Conversión de datos.Outputs[Salida de conversión de datos].Columns[UnicodeCarDesc1]"
+                      name="UnicodeCarDesc1"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica la columna de entrada usada como origen de datos para la conversión."
+                          name="SourceInputColumnLineageID">#{Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].Columns[CarDesc1]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Carga funcionarios Saico\Conversión de datos.Outputs[Salida de error de conversión de datos]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de conversión de datos"
+                  synchronousInputId="Package\Carga funcionarios Saico\Conversión de datos.Inputs[Entrada de conversión de datos]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga funcionarios Saico\Conversión de datos.Outputs[Salida de error de conversión de datos].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Carga funcionarios Saico\Conversión de datos.Outputs[Salida de error de conversión de datos].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Carga funcionarios Saico\Conversión de datos.Outputs[Salida de error de conversión de datos].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Carga funcionarios Saico\Conversión de datos.Outputs[Salida de error de conversión de datos].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -4897,15 +5240,7 @@ where fecha_carga = (select max(j.fecha_carga) from  "CVUY_UCU_resp".ods.anii_fo
                       cachedDataType="i2"
                       cachedName="CarId"
                       externalMetadataColumnId="Package\Carga funcionarios Saico\DT_Cargo.Inputs[Entrada de destino de OLE DB].ExternalColumns[CarId]"
-                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].Columns[CarId]" />
-                    <inputColumn
-                      refId="Package\Carga funcionarios Saico\DT_Cargo.Inputs[Entrada de destino de OLE DB].Columns[CarDesc1]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="20"
-                      cachedName="CarDesc1"
-                      externalMetadataColumnId="Package\Carga funcionarios Saico\DT_Cargo.Inputs[Entrada de destino de OLE DB].ExternalColumns[CarDesc1]"
-                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].Columns[CarDesc1]" />
+                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].Columns[CarId]" />
                     <inputColumn
                       refId="Package\Carga funcionarios Saico\DT_Cargo.Inputs[Entrada de destino de OLE DB].Columns[clave]"
                       cachedDataType="wstr"
@@ -4920,6 +5255,13 @@ where fecha_carga = (select max(j.fecha_carga) from  "CVUY_UCU_resp".ods.anii_fo
                       cachedName="source"
                       externalMetadataColumnId="Package\Carga funcionarios Saico\DT_Cargo.Inputs[Entrada de destino de OLE DB].ExternalColumns[source]"
                       lineageId="Package\Carga funcionarios Saico\Agrega clave y source.Outputs[Salida de columna derivada].Columns[source]" />
+                    <inputColumn
+                      refId="Package\Carga funcionarios Saico\DT_Cargo.Inputs[Entrada de destino de OLE DB].Columns[UnicodeCarDesc1]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="UnicodeCarDesc1"
+                      externalMetadataColumnId="Package\Carga funcionarios Saico\DT_Cargo.Inputs[Entrada de destino de OLE DB].ExternalColumns[CarDesc1]"
+                      lineageId="Package\Carga funcionarios Saico\Conversión de datos.Outputs[Salida de conversión de datos].Columns[UnicodeCarDesc1]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -4929,9 +5271,8 @@ where fecha_carga = (select max(j.fecha_carga) from  "CVUY_UCU_resp".ods.anii_fo
                       name="CarId" />
                     <externalMetadataColumn
                       refId="Package\Carga funcionarios Saico\DT_Cargo.Inputs[Entrada de destino de OLE DB].ExternalColumns[CarDesc1]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="wstr"
+                      length="100"
                       name="CarDesc1" />
                     <externalMetadataColumn
                       refId="Package\Carga funcionarios Saico\DT_Cargo.Inputs[Entrada de destino de OLE DB].ExternalColumns[clave]"
@@ -5321,11 +5662,11 @@ where fecha_carga = (select max(j.fecha_carga) from  "CVUY_UCU_resp".ods.anii_fo
               </outputs>
             </component>
             <component
-              refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios"
+              refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO"
               componentClassID="Microsoft.OLEDBSource"
               contactInfo="Origen de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;7"
               description="Origen de OLE DB"
-              name="Extrae Cargos de funcionarios"
+              name="Extrae Cargos de funcionarios en SAICO"
               usesDispositions="true"
               version="7">
               <properties>
@@ -5370,7 +5711,7 @@ where fecha_carga = (select max(j.fecha_carga) from  "CVUY_UCU_resp".ods.anii_fo
               </properties>
               <connections>
                 <connection
-                  refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Connections[OleDbConnection]"
+                  refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[10.245.0.30.UCU.Saico_DW]"
                   connectionManagerRefId="Package.ConnectionManagers[10.245.0.30.UCU.Saico_DW]"
                   description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
@@ -5378,167 +5719,298 @@ where fecha_carga = (select max(j.fecha_carga) from  "CVUY_UCU_resp".ods.anii_fo
               </connections>
               <outputs>
                 <output
-                  refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB]"
+                  refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB]"
                   name="Salida de origen de OLE DB">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].Columns[CarId]"
+                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].Columns[CarId]"
                       dataType="i2"
                       errorOrTruncationOperation="Conversión"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].ExternalColumns[CarId]"
-                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].Columns[CarId]"
+                      externalMetadataColumnId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].ExternalColumns[CarId]"
+                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].Columns[CarId]"
                       name="CarId"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].Columns[CarDesc1]"
+                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].Columns[CarDesc1]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversión"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].ExternalColumns[CarDesc1]"
+                      externalMetadataColumnId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].ExternalColumns[CarDesc1]"
                       length="20"
-                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].Columns[CarDesc1]"
+                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].Columns[CarDesc1]"
                       name="CarDesc1"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].Columns[CarDesc2]"
+                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].Columns[CarDesc2]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversión"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].ExternalColumns[CarDesc2]"
+                      externalMetadataColumnId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].ExternalColumns[CarDesc2]"
                       length="20"
-                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].Columns[CarDesc2]"
+                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].Columns[CarDesc2]"
                       name="CarDesc2"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].Columns[ScrEsp1Id]"
+                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].Columns[ScrEsp1Id]"
                       dataType="i4"
                       errorOrTruncationOperation="Conversión"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].ExternalColumns[ScrEsp1Id]"
-                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].Columns[ScrEsp1Id]"
+                      externalMetadataColumnId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].ExternalColumns[ScrEsp1Id]"
+                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].Columns[ScrEsp1Id]"
                       name="ScrEsp1Id"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].Columns[SipsCodCar]"
+                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].Columns[SipsCodCar]"
                       dataType="i4"
                       errorOrTruncationOperation="Conversión"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].ExternalColumns[SipsCodCar]"
-                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].Columns[SipsCodCar]"
+                      externalMetadataColumnId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].ExternalColumns[SipsCodCar]"
+                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].Columns[SipsCodCar]"
                       name="SipsCodCar"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].Columns[SipsEspId]"
+                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].Columns[SipsEspId]"
                       dataType="i4"
                       errorOrTruncationOperation="Conversión"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].ExternalColumns[SipsEspId]"
-                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].Columns[SipsEspId]"
+                      externalMetadataColumnId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].ExternalColumns[SipsEspId]"
+                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].Columns[SipsEspId]"
                       name="SipsEspId"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].Columns[CarActInac]"
+                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].Columns[CarActInac]"
                       dataType="i2"
                       errorOrTruncationOperation="Conversión"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].ExternalColumns[CarActInac]"
-                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].Columns[CarActInac]"
+                      externalMetadataColumnId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].ExternalColumns[CarActInac]"
+                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].Columns[CarActInac]"
                       name="CarActInac"
                       truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].ExternalColumns[CarId]"
+                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].ExternalColumns[CarId]"
                       dataType="i2"
                       name="CarId" />
                     <externalMetadataColumn
-                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].ExternalColumns[CarDesc1]"
+                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].ExternalColumns[CarDesc1]"
                       codePage="1252"
                       dataType="str"
                       length="20"
                       name="CarDesc1" />
                     <externalMetadataColumn
-                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].ExternalColumns[CarDesc2]"
+                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].ExternalColumns[CarDesc2]"
                       codePage="1252"
                       dataType="str"
                       length="20"
                       name="CarDesc2" />
                     <externalMetadataColumn
-                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].ExternalColumns[ScrEsp1Id]"
+                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].ExternalColumns[ScrEsp1Id]"
                       dataType="i4"
                       name="ScrEsp1Id" />
                     <externalMetadataColumn
-                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].ExternalColumns[SipsCodCar]"
+                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].ExternalColumns[SipsCodCar]"
                       dataType="i4"
                       name="SipsCodCar" />
                     <externalMetadataColumn
-                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].ExternalColumns[SipsEspId]"
+                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].ExternalColumns[SipsEspId]"
                       dataType="i4"
                       name="SipsEspId" />
                     <externalMetadataColumn
-                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB].ExternalColumns[CarActInac]"
+                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB].ExternalColumns[CarActInac]"
                       dataType="i2"
                       name="CarActInac" />
                   </externalMetadataColumns>
                 </output>
                 <output
-                  refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de error de origen de OLE DB]"
+                  refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de error de origen de OLE DB]"
                   isErrorOut="true"
                   name="Salida de error de origen de OLE DB">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de error de origen de OLE DB].Columns[CarId]"
+                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de error de origen de OLE DB].Columns[CarId]"
                       dataType="i2"
-                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de error de origen de OLE DB].Columns[CarId]"
+                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de error de origen de OLE DB].Columns[CarId]"
                       name="CarId" />
                     <outputColumn
-                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de error de origen de OLE DB].Columns[CarDesc1]"
+                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de error de origen de OLE DB].Columns[CarDesc1]"
                       codePage="1252"
                       dataType="str"
                       length="20"
-                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de error de origen de OLE DB].Columns[CarDesc1]"
+                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de error de origen de OLE DB].Columns[CarDesc1]"
                       name="CarDesc1" />
                     <outputColumn
-                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de error de origen de OLE DB].Columns[CarDesc2]"
+                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de error de origen de OLE DB].Columns[CarDesc2]"
                       codePage="1252"
                       dataType="str"
                       length="20"
-                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de error de origen de OLE DB].Columns[CarDesc2]"
+                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de error de origen de OLE DB].Columns[CarDesc2]"
                       name="CarDesc2" />
                     <outputColumn
-                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de error de origen de OLE DB].Columns[ScrEsp1Id]"
+                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de error de origen de OLE DB].Columns[ScrEsp1Id]"
                       dataType="i4"
-                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de error de origen de OLE DB].Columns[ScrEsp1Id]"
+                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de error de origen de OLE DB].Columns[ScrEsp1Id]"
                       name="ScrEsp1Id" />
                     <outputColumn
-                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de error de origen de OLE DB].Columns[SipsCodCar]"
+                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de error de origen de OLE DB].Columns[SipsCodCar]"
                       dataType="i4"
-                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de error de origen de OLE DB].Columns[SipsCodCar]"
+                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de error de origen de OLE DB].Columns[SipsCodCar]"
                       name="SipsCodCar" />
                     <outputColumn
-                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de error de origen de OLE DB].Columns[SipsEspId]"
+                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de error de origen de OLE DB].Columns[SipsEspId]"
                       dataType="i4"
-                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de error de origen de OLE DB].Columns[SipsEspId]"
+                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de error de origen de OLE DB].Columns[SipsEspId]"
                       name="SipsEspId" />
                     <outputColumn
-                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de error de origen de OLE DB].Columns[CarActInac]"
+                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de error de origen de OLE DB].Columns[CarActInac]"
                       dataType="i2"
-                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de error de origen de OLE DB].Columns[CarActInac]"
+                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de error de origen de OLE DB].Columns[CarActInac]"
                       name="CarActInac" />
                     <outputColumn
-                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]"
+                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]"
+                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
+                      refId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
+                      lineageId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Carga funcionarios Saico\Extrae cargos MAGIX"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="Origen de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;7"
+              description="Origen de OLE DB"
+              name="Extrae cargos MAGIX"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowset"></property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">Select DISTINCT CARGO_ID, CARGO_DESCR
+from DW_DESIGNACIONES_DOCENTES</property>
+                <property
+                  dataType="System.String"
+                  description="Variable que contiene el comando SQL para ejecutar."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Fuerza el uso del valor de la propiedad DefaultCodePage al describir datos de caracteres."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  name="AccessMode"
+                  typeConverter="AccessMode">2</property>
+                <property
+                  dataType="System.String"
+                  description="Asignaciones entre los parámetros del comando SQL y las variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Carga funcionarios Saico\Extrae cargos MAGIX.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.DW_UCU]"
+                  connectionManagerRefId="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.DW_UCU]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Carga funcionarios Saico\Extrae cargos MAGIX.Outputs[Salida de origen de OLE DB]"
+                  name="Salida de origen de OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga funcionarios Saico\Extrae cargos MAGIX.Outputs[Salida de origen de OLE DB].Columns[CARGO_ID]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga funcionarios Saico\Extrae cargos MAGIX.Outputs[Salida de origen de OLE DB].ExternalColumns[CARGO_ID]"
+                      lineageId="Package\Carga funcionarios Saico\Extrae cargos MAGIX.Outputs[Salida de origen de OLE DB].Columns[CARGO_ID]"
+                      name="CARGO_ID"
+                      precision="18"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Carga funcionarios Saico\Extrae cargos MAGIX.Outputs[Salida de origen de OLE DB].Columns[CARGO_DESCR]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga funcionarios Saico\Extrae cargos MAGIX.Outputs[Salida de origen de OLE DB].ExternalColumns[CARGO_DESCR]"
+                      length="100"
+                      lineageId="Package\Carga funcionarios Saico\Extrae cargos MAGIX.Outputs[Salida de origen de OLE DB].Columns[CARGO_DESCR]"
+                      name="CARGO_DESCR"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Carga funcionarios Saico\Extrae cargos MAGIX.Outputs[Salida de origen de OLE DB].ExternalColumns[CARGO_ID]"
+                      dataType="numeric"
+                      name="CARGO_ID"
+                      precision="18" />
+                    <externalMetadataColumn
+                      refId="Package\Carga funcionarios Saico\Extrae cargos MAGIX.Outputs[Salida de origen de OLE DB].ExternalColumns[CARGO_DESCR]"
+                      dataType="wstr"
+                      length="100"
+                      name="CARGO_DESCR" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Carga funcionarios Saico\Extrae cargos MAGIX.Outputs[Salida de error de origen de OLE DB]"
+                  isErrorOut="true"
+                  name="Salida de error de origen de OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga funcionarios Saico\Extrae cargos MAGIX.Outputs[Salida de error de origen de OLE DB].Columns[CARGO_ID]"
+                      dataType="numeric"
+                      lineageId="Package\Carga funcionarios Saico\Extrae cargos MAGIX.Outputs[Salida de error de origen de OLE DB].Columns[CARGO_ID]"
+                      name="CARGO_ID"
+                      precision="18" />
+                    <outputColumn
+                      refId="Package\Carga funcionarios Saico\Extrae cargos MAGIX.Outputs[Salida de error de origen de OLE DB].Columns[CARGO_DESCR]"
+                      dataType="wstr"
+                      length="100"
+                      lineageId="Package\Carga funcionarios Saico\Extrae cargos MAGIX.Outputs[Salida de error de origen de OLE DB].Columns[CARGO_DESCR]"
+                      name="CARGO_DESCR" />
+                    <outputColumn
+                      refId="Package\Carga funcionarios Saico\Extrae cargos MAGIX.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Carga funcionarios Saico\Extrae cargos MAGIX.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Carga funcionarios Saico\Extrae cargos MAGIX.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Carga funcionarios Saico\Extrae cargos MAGIX.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -6219,24 +6691,39 @@ left join LOCALIDA ll on ll.lclid = LclNacId</property>
           <paths>
             <path
               refId="Package\Carga funcionarios Saico.Paths[Salida de columna derivada]"
-              endId="Package\Carga funcionarios Saico\DT_Cargo.Inputs[Entrada de destino de OLE DB]"
-              name="Salida de columna derivada"
-              startId="Package\Carga funcionarios Saico\Agrega clave y source.Outputs[Salida de columna derivada]" />
-            <path
-              refId="Package\Carga funcionarios Saico.Paths[Salida de columna derivada1]"
               endId="Package\Carga funcionarios Saico\DT_Funcionario.Inputs[Entrada de destino de OLE DB]"
               name="Salida de columna derivada"
               startId="Package\Carga funcionarios Saico\TRIM nomobre y apellidos.Outputs[Salida de columna derivada]" />
             <path
+              refId="Package\Carga funcionarios Saico.Paths[Salida de columna derivada1]"
+              endId="Package\Carga funcionarios Saico\Conversión de datos.Inputs[Entrada de conversión de datos]"
+              name="Salida de columna derivada"
+              startId="Package\Carga funcionarios Saico\Agrega clave y source.Outputs[Salida de columna derivada]" />
+            <path
+              refId="Package\Carga funcionarios Saico.Paths[Salida de columna derivada2]"
+              endId="Package\Carga funcionarios Saico\Agrega a DT_Cargo.Inputs[Entrada de destino de OLE DB]"
+              name="Salida de columna derivada"
+              startId="Package\Carga funcionarios Saico\Columna derivada.Outputs[Salida de columna derivada]" />
+            <path
+              refId="Package\Carga funcionarios Saico.Paths[Salida de conversión de datos]"
+              endId="Package\Carga funcionarios Saico\DT_Cargo.Inputs[Entrada de destino de OLE DB]"
+              name="Salida de conversión de datos"
+              startId="Package\Carga funcionarios Saico\Conversión de datos.Outputs[Salida de conversión de datos]" />
+            <path
               refId="Package\Carga funcionarios Saico.Paths[Salida de origen de OLE DB]"
               endId="Package\Carga funcionarios Saico\Agrega clave y source.Inputs[Entrada de columna derivada]"
               name="Salida de origen de OLE DB"
-              startId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios.Outputs[Salida de origen de OLE DB]" />
+              startId="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Carga funcionarios Saico.Paths[Salida de origen de OLE DB1]"
               endId="Package\Carga funcionarios Saico\TRIM nomobre y apellidos.Inputs[Entrada de columna derivada]"
               name="Salida de origen de OLE DB"
               startId="Package\Carga funcionarios Saico\Extrae de FUNCIONA.Outputs[Salida de origen de OLE DB]" />
+            <path
+              refId="Package\Carga funcionarios Saico.Paths[Salida de origen de OLE DB2]"
+              endId="Package\Carga funcionarios Saico\Columna derivada.Inputs[Entrada de columna derivada]"
+              name="Salida de origen de OLE DB"
+              startId="Package\Carga funcionarios Saico\Extrae cargos MAGIX.Outputs[Salida de origen de OLE DB]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -19678,7 +20165,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
       DTS:LocaleID="-1"
       DTS:ObjectName="Docentes ANII"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0" />
@@ -19698,7 +20185,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
       DTS:LocaleID="-1"
       DTS:ObjectName="Formación Académica ANII"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="4">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0" />
@@ -19717,7 +20204,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
       DTS:LocaleID="-1"
       DTS:ObjectName="Funcionarios Saico"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0" />
@@ -19736,7 +20223,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
       DTS:LocaleID="-1"
       DTS:ObjectName="Link Vivo"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="3">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0" />
@@ -19755,7 +20242,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
       DTS:LocaleID="-1"
       DTS:ObjectName="Plan Docentes"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="4">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0" />
@@ -19774,7 +20261,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
       DTS:LocaleID="-1"
       DTS:ObjectName="Producciones ANII"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="3">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0" />
@@ -20229,7 +20716,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
     design-time-name="Package\Carga Formación Docente ANII">
     <LayoutInfo>
       <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="179,42"
           Id="Package\Carga Formación Docente ANII\Maestría y Doctorado"
@@ -20297,7 +20784,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -20331,7 +20820,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -20365,7 +20856,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -20399,7 +20892,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -20433,7 +20928,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -20455,7 +20952,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -20489,7 +20988,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -20523,7 +21024,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -20557,7 +21060,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -20591,7 +21096,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -20613,7 +21120,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -20692,22 +21201,22 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
     design-time-name="Package\Carga funcionarios Saico">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="202,42"
           Id="Package\Carga funcionarios Saico\TRIM nomobre y apellidos"
           TopLeft="25.5,118.5" />
         <NodeLayout
-          Size="126,42"
+          Size="126,48"
           Id="Package\Carga funcionarios Saico\DT_Cargo"
-          TopLeft="324.5,212.5" />
+          TopLeft="324.5,266.5" />
         <NodeLayout
           Size="178,42"
           Id="Package\Carga funcionarios Saico\Extrae de FUNCIONA"
           TopLeft="35.5,35.5" />
         <NodeLayout
-          Size="220,42"
-          Id="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios"
+          Size="268,42"
+          Id="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO"
           TopLeft="280.5,35.5" />
         <NodeLayout
           Size="153,42"
@@ -20719,30 +21228,40 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
           TopLeft="302.5,118.5" />
         <EdgeLayout
           Id="Package\Carga funcionarios Saico.Paths[Salida de origen de OLE DB]"
-          TopLeft="392,77.5">
+          TopLeft="414.5,77.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,41"
+              EndConnector="-21,41"
               Start="0,0"
-              End="0,33.5">
+              End="-21,33.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,33.5" />
+                    End="0,16.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.5"
+                    Point2="0,20.5"
+                    Point3="-4,20.5" />
+                  <mssgle:LineSegment
+                    End="-17,20.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-17,20.5"
+                    Point2="-21,20.5"
+                    Point3="-21,24.5" />
+                  <mssgle:LineSegment
+                    End="-21,33.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga funcionarios Saico.Paths[Salida de columna derivada1]"
+          Id="Package\Carga funcionarios Saico.Paths[Salida de columna derivada]"
           TopLeft="123.25,160.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -20760,33 +21279,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga funcionarios Saico.Paths[Salida de columna derivada]"
-          TopLeft="390.5,160.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,52"
-              Start="0,0"
-              End="0,44.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,44.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -20808,9 +21301,147 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="175,42"
+          Id="Package\Carga funcionarios Saico\Conversión de datos"
+          TopLeft="309.5,187.5" />
+        <EdgeLayout
+          Id="Package\Carga funcionarios Saico.Paths[Salida de columna derivada1]"
+          TopLeft="395.25,160.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,27"
+              Start="0,0"
+              End="0,19.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga funcionarios Saico.Paths[Salida de conversión de datos]"
+          TopLeft="397,229.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-9.5,37"
+              Start="0,0"
+              End="-9.5,29.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,14.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,14.5"
+                    Point2="0,18.5"
+                    Point3="-4,18.5" />
+                  <mssgle:LineSegment
+                    End="-5.5,18.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-5.5,18.5"
+                    Point2="-9.5,18.5"
+                    Point3="-9.5,22.5" />
+                  <mssgle:LineSegment
+                    End="-9.5,29.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="178,42"
+          Id="Package\Carga funcionarios Saico\Extrae cargos MAGIX"
+          TopLeft="579.5,47.5" />
+        <NodeLayout
+          Size="164,42"
+          Id="Package\Carga funcionarios Saico\Columna derivada"
+          TopLeft="578.5,147.5" />
+        <NodeLayout
+          Size="171,42"
+          Id="Package\Carga funcionarios Saico\Agrega a DT_Cargo"
+          TopLeft="556.5,258.5" />
+        <EdgeLayout
+          Id="Package\Carga funcionarios Saico.Paths[Salida de origen de OLE DB2]"
+          TopLeft="668.5,89.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-8,58"
+              Start="0,0"
+              End="-8,50.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25"
+                    Point2="0,29"
+                    Point3="-4,29" />
+                  <mssgle:LineSegment
+                    End="-4,29" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-4,29"
+                    Point2="-8,29"
+                    Point3="-8,33" />
+                  <mssgle:LineSegment
+                    End="-8,50.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga funcionarios Saico.Paths[Salida de columna derivada2]"
+          TopLeft="660.5,189.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-18.5,69"
+              Start="0,0"
+              End="-18.5,61.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,30.5"
+                    Point2="0,34.5"
+                    Point3="-4,34.5" />
+                  <mssgle:LineSegment
+                    End="-14.5,34.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-14.5,34.5"
+                    Point2="-18.5,34.5"
+                    Point3="-18.5,38.5" />
+                  <mssgle:LineSegment
+                    End="-18.5,61.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -20838,7 +21469,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios">
+    design-time-name="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -21077,7 +21708,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
     design-time-name="Package\Carga Otras Producciones ANII">
     <LayoutInfo>
       <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="231,42"
           Id="Package\Carga Otras Producciones ANII\Mantenimiento ANII PostgreSQL"
@@ -21149,7 +21780,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21183,7 +21816,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21217,7 +21852,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21251,7 +21888,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21285,7 +21924,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21319,7 +21960,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21341,7 +21984,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21375,7 +22020,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21409,7 +22056,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21443,7 +22092,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21477,7 +22128,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21499,7 +22152,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
