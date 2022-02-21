@@ -12,8 +12,8 @@
   DTS:ObjectName="FichaDocente"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="166"
-  DTS:VersionGUID="{3A211C6B-6122-4DA8-B116-7F1EDB7334BE}">
+  DTS:VersionBuild="170"
+  DTS:VersionGUID="{38BA03A0-666F-4121-8793-4F29C6F892B2}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,12 +27,12 @@
           DTS:ConnectionString="Data Source=10.245.0.30;User ID=Saico_DW;Initial Catalog=UCU;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="yhXEvDRrqp8="
-            IV="jm9wU2G9Dk0vSfIkhRD06A==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="vfC0l0HkUgY="
+            IV="EieQSR+6W1MGYGbnGZgJdw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>jm9wU2G9Dk0vSfIkhRD06D7K3FO53FH2ESe3FNTpY4AjE+CgNBWTFRnAEPRMunu1aJmFP74JZsL3plQWKwuAi97LP2+vTCJLixuZ6ANABv8AjMK3lUKQknqZTIfKHfmSwBuGz/hG99BlLeFkR/4FK4bfyPYyk1bC0dXqFvI62MdmD+UxZ09OzsncFT9hLXKA</CipherValue>
+              <CipherValue>EieQSR+6W1MGYGbnGZgJd+QwB4y1mNnv40oRa87h4/HXCYjSuaYtG+RZFmo2BI1sK1Hku9Nj69zSs1bDnEi5atDi5C02RE1ttkEZevyIjoyA9jMUtzFxdMmI/3EveEoHRz82uJfct09Qp1qYWfjBa+TbCRIbGADtclPH4DVtN4nwZ8Ryr2Mi18alr1Nk5Uv3</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -48,12 +48,12 @@
           DTS:ConnectionString="Data Source=10.245.0.6;User ID=nodum_read;Initial Catalog=Nodum_Prod;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="nL0Lybk6Ebo="
-            IV="Qbx65N2zWX7xgJMprGyihQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="jpizg5V0K38="
+            IV="soYk8+MfoFxa4QYq1ZzpNQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>Qbx65N2zWX7xgJMprGyihXPZvUiZFqNoUWb47ULtAVElBtTAqqwaYFWChzpyj/Q/gK/FIctiQw5zBsbnQuG6GrKFv+4ped4T+BxC4X26S1EN5fKlwRek+AReiLrKk550hrF67RKkYBenBqGwrX0+piSCxSuwJXBeq/2nb5AirRsG86uIp1cAcaJDox/fnWIg</CipherValue>
+              <CipherValue>soYk8+MfoFxa4QYq1ZzpNa2Ypmb0vToBrLMhuTc7axKbtV/L28D6ugE5XrNd4xDAvQ4Oqa9QoVMm+uebOec6B0NsOCKlu+nVH8NztvuQYTG4LTuZKAVq7GtWS8pN8SJZMLpQ8nP5cavGrdJVg4KDEjtmaQYkfGtoMvlzklz5JGOe5z9j3pdfVOEU040Z2WLv</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -69,12 +69,12 @@
           DTS:ConnectionString="Data Source=PROD-UCUDBS10\POWERBI;User ID=rcalvo;Initial Catalog=DW_UCU;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=false;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="qiIeW8oNzAU="
-            IV="QYLVf79851PcGILVxqtybg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="+pd0nUgbX6Q="
+            IV="4VEloo4+1eqYjkicqIbP6Q==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>QYLVf79851PcGILVxqtybvsgw5p15tgWHWvSuuDqJCevf4Lpj7rPqDbO//ul08rp3m+2FEak7OdjWHl3VDrkGau9Gm5qnlqyEriMjPtQqBOgtV261D55ZGu45fERT8GNlsC3Z/EdKCYOq6U6LeK2V3gTYaAEFx39NNkiMnLcTNnbmhJ8ZPyjxYiTqqHa80lb</CipherValue>
+              <CipherValue>4VEloo4+1eqYjkicqIbP6T4xSgpw5oUE9dNpx0dED1O5fSykQ5R4iXVO+et+pdYot3ruUT4aLQO7HPrIuqwS3XaiyXR0R+jvDrROeXCBQffftOYIAud79hE+N7WjOkG9sE2yNI69Pg3Clln2vvOeXCtRQpI4D9kYSROBOWh0MX2h98kiHfW1y3kEdUToNhJk</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -111,12 +111,12 @@
           DTS:ConnectionString="uid=postgres;Dsn=PostgreSQL30Uni;Driver={PostgreSQL ODBC DRIVER(ANSI)};">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="FNDQsJ4i5p0="
-            IV="jbRPYAwTyBum0U9LE7ErUw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="uYOzl42Cz3Q="
+            IV="LHZknD4vgsyfEXhBU8Dn2w==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>jbRPYAwTyBum0U9LE7ErU/setmsWcvxVnuy5Xm1pvnF2sRtCTy83STIPv78JoJfsp4AjLKD4A752CGuiRm4yVsZ4JcNGUDauxtzK8ffdyiauyX6FCdwjUgT7/IAKpN3jTA/EtoxfAvxKFODWfuKMG9993CMIVM6phaMoYyMVXtc=</CipherValue>
+              <CipherValue>LHZknD4vgsyfEXhBU8Dn2zNPrDcZmsYQthwk+T6LJaZhK+BvHCOLQCLxOjQXm7w4a1lhQMHBdIh5qPAsfla8lUkOE+Xfrp7BKnkPc4w4ppNbsUtMHVWT55+Rrc6uQtZ+eO1gnbf8MUKCL+zx2ENtUTmzF4uag/mnSoFqyd+kLZU=</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -166,6 +166,25 @@
     </DTS:SelectedLogProviders>
   </DTS:LoggingOptions>
   <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Arreglar CI sin digito"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Tarea Ejecutar SQL"
+      DTS:DTSID="{f8920fe1-2b49-42cb-817f-840c89344802}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Arreglar CI sin digito"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="1">
+      <DTS:Variables />
+      <DTS:LoggingOptions
+        DTS:FilterKind="0" />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{01739095-1645-42B6-8D9A-A83AC4D68895}"
+          SQLTask:SqlStatementSource=" update dt set dt.documento_nro = (select f.NRO_DOCUMENTO from DT_FUNCIONARIOS_TOTAL f  where f.NRO_DOCUMENTO  like concat('%',dt.documento_nro,'%'))&#xA; from DT_Docente_PAD_Plan_Trabajo dt" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
     <DTS:Executable
       DTS:refId="Package\Carga Formación Docente ANII"
       DTS:CreationName="Microsoft.Pipeline"
@@ -6043,7 +6062,7 @@ from DW_DESIGNACIONES_DOCENTES</property>
                   dataType="System.String"
                   description="Comando SQL para ejecutar."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select case FunDocumTi when 'DO' then 'CI' ELSE FunDocumTi END as tipo_doc, FunDocumNr documento_nro, f.funid , funnom1 , funnom2 , funape1 , funape2, funnacim, funtelef, funcelular,
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select case FunDocumTi when 'DO' then 'CI' ELSE FunDocumTi END as tipo_doc,trim( FunDocumNr) documento_nro, f.funid , funnom1 , funnom2 , funape1 , funape2, funnacim, funtelef, funcelular,
 fundomici3 direccion, lcldomid cod_locali_hab, l.LclNom ciudad, l.PaiId pais, funcp, funsexo, FunEstCivi , lclnacid cod_locali_nac, ll.PaiId pais_nacimiento
 from FUNCIONA f
 left join LOCALIDA l on l.lclid = LclDomId
@@ -20185,7 +20204,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
       DTS:LocaleID="-1"
       DTS:ObjectName="Formación Académica ANII"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0" />
@@ -20204,7 +20223,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
       DTS:LocaleID="-1"
       DTS:ObjectName="Funcionarios Saico"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="3">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0" />
@@ -20223,7 +20242,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
       DTS:LocaleID="-1"
       DTS:ObjectName="Link Vivo"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="4">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0" />
@@ -20242,7 +20261,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
       DTS:LocaleID="-1"
       DTS:ObjectName="Plan Docentes"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="4">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0" />
@@ -20261,7 +20280,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
       DTS:LocaleID="-1"
       DTS:ObjectName="Producciones ANII"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="3">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0" />
@@ -20346,6 +20365,14 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
       DTS:ObjectName="Restricción 8"
       DTS:To="Package\Carga funcionarios total" />
     <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restricción 9]"
+      DTS:CreationName=""
+      DTS:DTSID="{AA547015-3DF4-4F1E-84D1-E57291F4948C}"
+      DTS:From="Package\Carga plan docente"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restricción 9"
+      DTS:To="Package\Arreglar CI sin digito" />
+    <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[{08D22FE5-96F9-496B-8F42-15494A0416B4\}]"
       DTS:CreationName=""
       DTS:DTSID="{5ac46f3c-b473-4991-80ba-c211255b2f2f}"
@@ -20367,6 +20394,10 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="176,42"
+          Id="Package\Arreglar CI sin digito"
+          TopLeft="479.807709265038,463.287876468278" />
+        <NodeLayout
           Size="225,42"
           Id="Package\Carga Formación Docente ANII"
           TopLeft="697.5,129.5" />
@@ -20375,7 +20406,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
           Id="Package\Carga funcionarios Saico"
           TopLeft="262.5,364.5" />
         <NodeLayout
-          Size="191,42"
+          Size="190,42"
           Id="Package\Carga funcionarios total"
           TopLeft="588.5,363.5" />
         <NodeLayout
@@ -20648,18 +20679,52 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 8]"
-          TopLeft="457.5,385">
+          TopLeft="457.7,384.9">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="131,0"
+              EndConnector="130.8,0"
               Start="0,0"
-              End="123.5,0">
+              End="123.3,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="123.5,0" />
+                    End="123.3,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción 9]"
+          TopLeft="432.5,446.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="47.3077092650381,37.787876468278"
+              Start="0,0"
+              End="39.8077092650381,37.787876468278">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="19.653854632519,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="19.653854632519,0"
+                    Point2="23.653854632519,0"
+                    Point3="23.653854632519,4" />
+                  <mssgle:LineSegment
+                    End="23.653854632519,33.787876468278" />
+                  <mssgle:CubicBezierSegment
+                    Point1="23.653854632519,33.787876468278"
+                    Point2="23.653854632519,37.787876468278"
+                    Point3="27.653854632519,37.787876468278" />
+                  <mssgle:LineSegment
+                    End="39.8077092650381,37.787876468278" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -21203,77 +21268,71 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="202,42"
-          Id="Package\Carga funcionarios Saico\TRIM nomobre y apellidos"
-          TopLeft="25.5,118.5" />
+          Size="178,42"
+          Id="Package\Carga funcionarios Saico\Extrae de FUNCIONA"
+          TopLeft="35.5,35.5" />
         <NodeLayout
           Size="126,48"
           Id="Package\Carga funcionarios Saico\DT_Cargo"
           TopLeft="324.5,266.5" />
         <NodeLayout
+          Size="182,42"
+          Id="Package\Carga funcionarios Saico\Agrega clave y source"
+          TopLeft="302.5,118.5" />
+        <NodeLayout
           Size="178,42"
-          Id="Package\Carga funcionarios Saico\Extrae de FUNCIONA"
-          TopLeft="35.5,35.5" />
+          Id="Package\Carga funcionarios Saico\Extrae cargos MAGIX"
+          TopLeft="579.5,47.5" />
         <NodeLayout
           Size="268,42"
           Id="Package\Carga funcionarios Saico\Extrae Cargos de funcionarios en SAICO"
           TopLeft="280.5,35.5" />
         <NodeLayout
-          Size="153,42"
+          Size="164,42"
+          Id="Package\Carga funcionarios Saico\Columna derivada"
+          TopLeft="578.5,147.5" />
+        <NodeLayout
+          Size="175.2,42"
+          Id="Package\Carga funcionarios Saico\Conversión de datos"
+          TopLeft="309.5,187.5" />
+        <NodeLayout
+          Size="152.8,42"
           Id="Package\Carga funcionarios Saico\DT_Funcionario"
           TopLeft="43.5,212.5" />
         <NodeLayout
-          Size="182,42"
-          Id="Package\Carga funcionarios Saico\Agrega clave y source"
-          TopLeft="302.5,118.5" />
+          Size="171.2,42"
+          Id="Package\Carga funcionarios Saico\Agrega a DT_Cargo"
+          TopLeft="556.5,258.5" />
+        <NodeLayout
+          Size="202,42"
+          Id="Package\Carga funcionarios Saico\TRIM nomobre y apellidos"
+          TopLeft="25.5,118.5" />
         <EdgeLayout
-          Id="Package\Carga funcionarios Saico.Paths[Salida de origen de OLE DB]"
-          TopLeft="414.5,77.5">
+          Id="Package\Carga funcionarios Saico.Paths[Salida de origen de OLE DB2]"
+          TopLeft="668.5,89.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-21,41"
+              EndConnector="-8,58"
               Start="0,0"
-              End="-21,33.5">
+              End="-8,50.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,16.5" />
+                    End="0,25" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,16.5"
-                    Point2="0,20.5"
-                    Point3="-4,20.5" />
+                    Point1="0,25"
+                    Point2="0,29"
+                    Point3="-4,29" />
                   <mssgle:LineSegment
-                    End="-17,20.5" />
+                    End="-4,29" />
                   <mssgle:CubicBezierSegment
-                    Point1="-17,20.5"
-                    Point2="-21,20.5"
-                    Point3="-21,24.5" />
+                    Point1="-4,29"
+                    Point2="-8,29"
+                    Point3="-8,33" />
                   <mssgle:LineSegment
-                    End="-21,33.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga funcionarios Saico.Paths[Salida de columna derivada]"
-          TopLeft="123.25,160.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,52"
-              Start="0,0"
-              End="0,44.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,44.5" />
+                    End="-8,50.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -21304,24 +21363,32 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="175,42"
-          Id="Package\Carga funcionarios Saico\Conversión de datos"
-          TopLeft="309.5,187.5" />
         <EdgeLayout
-          Id="Package\Carga funcionarios Saico.Paths[Salida de columna derivada1]"
-          TopLeft="395.25,160.5">
+          Id="Package\Carga funcionarios Saico.Paths[Salida de origen de OLE DB]"
+          TopLeft="414.5,77.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,27"
+              EndConnector="-21,41"
               Start="0,0"
-              End="0,19.5">
+              End="-21,33.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,19.5" />
+                    End="0,16.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.5"
+                    Point2="0,20.5"
+                    Point3="-4,20.5" />
+                  <mssgle:LineSegment
+                    End="-17,20.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-17,20.5"
+                    Point2="-21,20.5"
+                    Point3="-21,24.5" />
+                  <mssgle:LineSegment
+                    End="-21,33.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -21364,52 +21431,6 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="178,42"
-          Id="Package\Carga funcionarios Saico\Extrae cargos MAGIX"
-          TopLeft="579.5,47.5" />
-        <NodeLayout
-          Size="164,42"
-          Id="Package\Carga funcionarios Saico\Columna derivada"
-          TopLeft="578.5,147.5" />
-        <NodeLayout
-          Size="171,42"
-          Id="Package\Carga funcionarios Saico\Agrega a DT_Cargo"
-          TopLeft="556.5,258.5" />
-        <EdgeLayout
-          Id="Package\Carga funcionarios Saico.Paths[Salida de origen de OLE DB2]"
-          TopLeft="668.5,89.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-8,58"
-              Start="0,0"
-              End="-8,50.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,25"
-                    Point2="0,29"
-                    Point3="-4,29" />
-                  <mssgle:LineSegment
-                    End="-4,29" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-4,29"
-                    Point2="-8,29"
-                    Point3="-8,33" />
-                  <mssgle:LineSegment
-                    End="-8,50.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga funcionarios Saico.Paths[Salida de columna derivada2]"
           TopLeft="660.5,189.5">
@@ -21444,9 +21465,61 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga funcionarios Saico.Paths[Salida de columna derivada1]"
+          TopLeft="395.25,160.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,27"
+              Start="0,0"
+              End="0,19.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga funcionarios Saico.Paths[Salida de columna derivada]"
+          TopLeft="123.25,160.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,52"
+              Start="0,0"
+              End="0,44.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,44.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga funcionarios Saico\Extrae de FUNCIONA">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Carga funcionarios Saico\DT_Cargo">
     <Properties>
@@ -21457,14 +21530,6 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Carga funcionarios Saico\Extrae de FUNCIONA">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -21498,7 +21563,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
     design-time-name="Package\Carga funcionarios total">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="303,42"
           Id="Package\Carga funcionarios total\En DT_Docente que no esta en DT_Funcionario"
@@ -21542,9 +21607,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21578,9 +21641,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21614,9 +21675,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21638,9 +21697,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21662,9 +21719,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -22249,7 +22304,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
     design-time-name="Package\Carga plan docente">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="204,42"
           Id="Package\Carga plan docente\Extraer de cpt_registropad"
@@ -22277,9 +22332,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
