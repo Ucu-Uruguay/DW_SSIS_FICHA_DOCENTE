@@ -12,8 +12,8 @@
   DTS:ObjectName="FichaDocente"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="170"
-  DTS:VersionGUID="{38BA03A0-666F-4121-8793-4F29C6F892B2}">
+  DTS:VersionBuild="173"
+  DTS:VersionGUID="{AF8D69B4-7BE4-4AFE-A51F-A03E65E3307F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,12 +27,12 @@
           DTS:ConnectionString="Data Source=10.245.0.30;User ID=Saico_DW;Initial Catalog=UCU;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="vfC0l0HkUgY="
-            IV="EieQSR+6W1MGYGbnGZgJdw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="3dw9q93+aLg="
+            IV="P5w2HcNyhyWQgkxQat9eow==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>EieQSR+6W1MGYGbnGZgJd+QwB4y1mNnv40oRa87h4/HXCYjSuaYtG+RZFmo2BI1sK1Hku9Nj69zSs1bDnEi5atDi5C02RE1ttkEZevyIjoyA9jMUtzFxdMmI/3EveEoHRz82uJfct09Qp1qYWfjBa+TbCRIbGADtclPH4DVtN4nwZ8Ryr2Mi18alr1Nk5Uv3</CipherValue>
+              <CipherValue>P5w2HcNyhyWQgkxQat9eo/HtF8xHE02oGHTtbsRAW3A9hcFWFMazW1j+Xt6KcHFQpRDdNL4SqirzxCcEekzzp9+mcPXh8sSmvCbR7mSHFefTCAHdV89U/vvNsORrdV4Qww+BHneqYu/zkRcfU3hos1My1eJhWFyhiMc/JZYnwQuuTel6JsXXLJ50sIGBBmPS</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -48,12 +48,12 @@
           DTS:ConnectionString="Data Source=10.245.0.6;User ID=nodum_read;Initial Catalog=Nodum_Prod;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="jpizg5V0K38="
-            IV="soYk8+MfoFxa4QYq1ZzpNQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="jZ3qKB1uS6M="
+            IV="tS+8q54a83fOHqrTSgjtvQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>soYk8+MfoFxa4QYq1ZzpNa2Ypmb0vToBrLMhuTc7axKbtV/L28D6ugE5XrNd4xDAvQ4Oqa9QoVMm+uebOec6B0NsOCKlu+nVH8NztvuQYTG4LTuZKAVq7GtWS8pN8SJZMLpQ8nP5cavGrdJVg4KDEjtmaQYkfGtoMvlzklz5JGOe5z9j3pdfVOEU040Z2WLv</CipherValue>
+              <CipherValue>tS+8q54a83fOHqrTSgjtvcLhqGRqchS8Xl/W2M5uCKCJbmQp+UE8WB54IY67rW0kriavS6cconaT7RmjJ7WCj5jRWAb9oNWoKV+ROIsRRBYHdtxgaXuZRhctJXiVJPMzGxkRtQlCjc6TXWJioaKUvzKOSE07ajohIQK0CHxxNPvIkvtamkqWXZUmAJzG9sP+</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -69,12 +69,12 @@
           DTS:ConnectionString="Data Source=PROD-UCUDBS10\POWERBI;User ID=rcalvo;Initial Catalog=DW_UCU;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=false;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="+pd0nUgbX6Q="
-            IV="4VEloo4+1eqYjkicqIbP6Q==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="vOorpwDnOHg="
+            IV="t0xDRORoeYXXJKljndtGwg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>4VEloo4+1eqYjkicqIbP6T4xSgpw5oUE9dNpx0dED1O5fSykQ5R4iXVO+et+pdYot3ruUT4aLQO7HPrIuqwS3XaiyXR0R+jvDrROeXCBQffftOYIAud79hE+N7WjOkG9sE2yNI69Pg3Clln2vvOeXCtRQpI4D9kYSROBOWh0MX2h98kiHfW1y3kEdUToNhJk</CipherValue>
+              <CipherValue>t0xDRORoeYXXJKljndtGwhMczVl28hZTjv+1PQe5A3qLcXcNAyTZ+cL3GX+3rCcPaySVsRXA2rmnsd/ZBzVQ7aS8eJq8Cg+ZU9RP/Jx1fdIyrM/QpTOe6KiBly9nvJcWtVQiK8pu7yM+dCGhAloHzfxdlzrHuOb9yqcGCbqaP8VVT3CHSuRNOKf6SbhpExQ5</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -111,12 +111,12 @@
           DTS:ConnectionString="uid=postgres;Dsn=PostgreSQL30Uni;Driver={PostgreSQL ODBC DRIVER(ANSI)};">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="uYOzl42Cz3Q="
-            IV="LHZknD4vgsyfEXhBU8Dn2w==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="Vh8AVtGFpmo="
+            IV="AvBeFJIfJqwWSJDvPg7PJg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>LHZknD4vgsyfEXhBU8Dn2zNPrDcZmsYQthwk+T6LJaZhK+BvHCOLQCLxOjQXm7w4a1lhQMHBdIh5qPAsfla8lUkOE+Xfrp7BKnkPc4w4ppNbsUtMHVWT55+Rrc6uQtZ+eO1gnbf8MUKCL+zx2ENtUTmzF4uag/mnSoFqyd+kLZU=</CipherValue>
+              <CipherValue>AvBeFJIfJqwWSJDvPg7PJv+PR5rrpnak8fhl07LytvRtx1ruhmBtS8fZ+2EQVTqc1k4q/F5jKBFAcBWJHfsP2tpJPZaqpbLlrdaEbieqM7p1dQ2QYAlkYPsl9+Zpm6hlRhUOT3YX7yS2xDdGbgiHZR21jxZcZq8bPuVKrnYZLg8=</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -170,12 +170,13 @@
       DTS:refId="Package\Arreglar CI sin digito"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Tarea Ejecutar SQL"
+      DTS:Disabled="True"
       DTS:DTSID="{f8920fe1-2b49-42cb-817f-840c89344802}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Arreglar CI sin digito"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="4">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0" />
@@ -13425,7 +13426,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_otras_p
 from cpt_registropad r, ct_empleados
 where status_ingreso='LIBERADO'
 	and r.usuario = ct_empleados.usuario
-	and r.fecha_mod = (SELECT max(fecha_mod) FROM cpt_registropad r2 WHERE r.usuario = r2.usuario and r.anio=r2.anio)</property>
+	and r.fecha_mod = (SELECT max(fecha_mod) FROM cpt_registropad r2 WHERE r.usuario = r2.usuario and r.anio=r2.anio AND r.status_ingreso=r2.status_ingreso)</property>
                 <property
                   dataType="System.String"
                   description="Variable que contiene el comando SQL para ejecutar."
@@ -20204,7 +20205,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
       DTS:LocaleID="-1"
       DTS:ObjectName="Formación Académica ANII"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0" />
@@ -20242,7 +20243,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
       DTS:LocaleID="-1"
       DTS:ObjectName="Link Vivo"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="4">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0" />
@@ -20261,7 +20262,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
       DTS:LocaleID="-1"
       DTS:ObjectName="Plan Docentes"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="4">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0" />
@@ -20280,7 +20281,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
       DTS:LocaleID="-1"
       DTS:ObjectName="Producciones ANII"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0" />
@@ -21266,7 +21267,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
     design-time-name="Package\Carga funcionarios Saico">
     <LayoutInfo>
       <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="178,42"
           Id="Package\Carga funcionarios Saico\Extrae de FUNCIONA"
@@ -21338,7 +21339,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21360,7 +21363,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21394,7 +21399,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21428,7 +21435,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21462,7 +21471,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21484,7 +21495,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21506,7 +21519,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -21563,7 +21578,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
     design-time-name="Package\Carga funcionarios total">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="303,42"
           Id="Package\Carga funcionarios total\En DT_Docente que no esta en DT_Funcionario"
@@ -21607,7 +21622,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21641,7 +21658,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21675,7 +21694,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21697,7 +21718,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21719,7 +21742,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
