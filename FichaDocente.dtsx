@@ -12,8 +12,8 @@
   DTS:ObjectName="FichaDocente"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="173"
-  DTS:VersionGUID="{AF8D69B4-7BE4-4AFE-A51F-A03E65E3307F}">
+  DTS:VersionBuild="176"
+  DTS:VersionGUID="{05FB894E-03E8-4867-94C0-B108D23D4DC2}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,12 +27,12 @@
           DTS:ConnectionString="Data Source=10.245.0.30;User ID=Saico_DW;Initial Catalog=UCU;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="3dw9q93+aLg="
-            IV="P5w2HcNyhyWQgkxQat9eow==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="gHh7I3SBIRc="
+            IV="C45XQDItxwFZQnDMTL2ZrQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>P5w2HcNyhyWQgkxQat9eo/HtF8xHE02oGHTtbsRAW3A9hcFWFMazW1j+Xt6KcHFQpRDdNL4SqirzxCcEekzzp9+mcPXh8sSmvCbR7mSHFefTCAHdV89U/vvNsORrdV4Qww+BHneqYu/zkRcfU3hos1My1eJhWFyhiMc/JZYnwQuuTel6JsXXLJ50sIGBBmPS</CipherValue>
+              <CipherValue>C45XQDItxwFZQnDMTL2ZrTSAftGu0E+fG4x/uq4P+TfV6rwsKHgiP46SCORnENNm6fhlhdgxT+pMD/4chQXGVaetaFasBOGwXo7RtVTHjh2cbdFo2Pnzajro/WECBIM2EHrc9MkX4RGN1itV9QTBX0+8bTZNYWfzF3Xhv3cWyZxG7DPkD1jvUVRyg51ANy0b</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -48,12 +48,12 @@
           DTS:ConnectionString="Data Source=10.245.0.6;User ID=nodum_read;Initial Catalog=Nodum_Prod;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="jZ3qKB1uS6M="
-            IV="tS+8q54a83fOHqrTSgjtvQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="oTO31n4SuZ4="
+            IV="KA7yxelMlM6KnRMkK7rH/w==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>tS+8q54a83fOHqrTSgjtvcLhqGRqchS8Xl/W2M5uCKCJbmQp+UE8WB54IY67rW0kriavS6cconaT7RmjJ7WCj5jRWAb9oNWoKV+ROIsRRBYHdtxgaXuZRhctJXiVJPMzGxkRtQlCjc6TXWJioaKUvzKOSE07ajohIQK0CHxxNPvIkvtamkqWXZUmAJzG9sP+</CipherValue>
+              <CipherValue>KA7yxelMlM6KnRMkK7rH//agbz4u49/Ualq8zBGeM6opc8xELslGdLJ6aWBFymZrorLZdQHP9tS0lzywNiuOYgtDk1dL7E4hcsEwUwczUl0CTx9ZlNoZ4Y6isH+EB+AmdWTCqT2kvJvCsfiWUeBXfZ9Ic+7yDpAoIn1THPlAuO2iZUg7AnVTAAZGYUYFsCnL</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -69,12 +69,12 @@
           DTS:ConnectionString="Data Source=PROD-UCUDBS10\POWERBI;User ID=rcalvo;Initial Catalog=DW_UCU;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=false;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="vOorpwDnOHg="
-            IV="t0xDRORoeYXXJKljndtGwg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="WXRPMaiwiLY="
+            IV="nsoekHo8b35zxBvHIzT2rg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>t0xDRORoeYXXJKljndtGwhMczVl28hZTjv+1PQe5A3qLcXcNAyTZ+cL3GX+3rCcPaySVsRXA2rmnsd/ZBzVQ7aS8eJq8Cg+ZU9RP/Jx1fdIyrM/QpTOe6KiBly9nvJcWtVQiK8pu7yM+dCGhAloHzfxdlzrHuOb9yqcGCbqaP8VVT3CHSuRNOKf6SbhpExQ5</CipherValue>
+              <CipherValue>nsoekHo8b35zxBvHIzT2rjefTKDKlfiUQ+tQmrrfXPgntHZBGm9iWhziDoSm/PQHoRGiXhfg6nhGB+tSFixnlfBermppVAQ+H+ItGKrNFFv8G4JAS6D6R26IWB1md6/+V0WJW7pDkDosOe2xhBMcXcCJtV17+R9sD0KtAmKNrKALx8g5s971LAuGUjFFcIMi</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -111,12 +111,12 @@
           DTS:ConnectionString="uid=postgres;Dsn=PostgreSQL30Uni;Driver={PostgreSQL ODBC DRIVER(ANSI)};">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="Vh8AVtGFpmo="
-            IV="AvBeFJIfJqwWSJDvPg7PJg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="FpBGdNZqthI="
+            IV="5QcCEzf6fmXVW01WELA3Mw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>AvBeFJIfJqwWSJDvPg7PJv+PR5rrpnak8fhl07LytvRtx1ruhmBtS8fZ+2EQVTqc1k4q/F5jKBFAcBWJHfsP2tpJPZaqpbLlrdaEbieqM7p1dQ2QYAlkYPsl9+Zpm6hlRhUOT3YX7yS2xDdGbgiHZR21jxZcZq8bPuVKrnYZLg8=</CipherValue>
+              <CipherValue>5QcCEzf6fmXVW01WELA3M28OP3TpwX/zKokBWANAcTYsBK2G3OQ5arS7ikZF3BSSqxtacnjgs8srZMbqrSszfwUQnb27bp75B3wi05W8lqpO5+Vxi/TkJadNghHMG1B9HJ6lARHTbjwwVRt64eO8guFqQZ1sud+LZdGsulqwleY=</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -176,7 +176,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Arreglar CI sin digito"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="4">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0" />
@@ -532,8 +532,8 @@
 	,subinstitucion
 	,sector programa
 	,pais
-from "CVUY_UCU_resp".ods.anii_formacion_complementaria_curso
-where fecha_carga = (select max(j.fecha_carga) from  "CVUY_UCU_resp".ods.anii_formacion_complementaria_curso j where j.ci = ci)</property>
+from "CVUY_UCU_resp".ods.anii_formacion_complementaria_curso fcc
+where fecha_carga = (select max(j.fecha_carga) from  "CVUY_UCU_resp".ods.anii_formacion_complementaria_curso j where j.ci = fcc.ci)</property>
                 <property
                   dataType="System.Int32"
                   description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
@@ -842,8 +842,8 @@ select distinct CONCAT('CI',ci) as documento_id
 	,subinstitucion
 	,nivelcomplementario programa
 	,pais
-from "CVUY_UCU_resp".ods.anii_formacion_complementaria_otras
-where fecha_carga = (select max(j.fecha_carga) from  "CVUY_UCU_resp".ods.anii_formacion_complementaria_otras j where j.ci = ci)</property>
+from "CVUY_UCU_resp".ods.anii_formacion_complementaria_otras fco
+where fecha_carga = (select max(j.fecha_carga) from  "CVUY_UCU_resp".ods.anii_formacion_complementaria_otras j where j.ci = fco.ci)</property>
                 <property
                   dataType="System.Int32"
                   description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
@@ -1522,8 +1522,8 @@ where fecha_carga = (select max(j.fecha_carga) from  "CVUY_UCU_resp".ods.anii_fo
 	,"subInstitucion" as subInstitucion
 	,programa
 	,pais
-from "CVUY_UCU_resp".ods.anii_formacion_academica_grado
-where fecha_carga = (select max(j.fecha_carga) from  "CVUY_UCU_resp".ods.anii_formacion_academica_grado j where j.ci = ci)</property>
+from "CVUY_UCU_resp".ods.anii_formacion_academica_grado fag
+where fecha_carga = (select max(j.fecha_carga) from  "CVUY_UCU_resp".ods.anii_formacion_academica_grado j where j.ci = fag.ci)</property>
                 <property
                   dataType="System.Int32"
                   description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
@@ -1833,8 +1833,8 @@ where fecha_carga = (select max(j.fecha_carga) from  "CVUY_UCU_resp".ods.anii_fo
 	,"subInstitucion" as subinstitucion
 	,programa
 	,pais
-from "CVUY_UCU_resp".ods.anii_formacion_academica_posgrado
-where fecha_carga = (select max(j.fecha_carga) from  "CVUY_UCU_resp".ods.anii_formacion_academica_posgrado j where j.ci = ci)</property>
+from "CVUY_UCU_resp".ods.anii_formacion_academica_posgrado fap
+where fecha_carga = (select max(j.fecha_carga) from  "CVUY_UCU_resp".ods.anii_formacion_academica_posgrado j where j.ci = fap.ci)</property>
                 <property
                   dataType="System.Int32"
                   description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
@@ -2533,8 +2533,8 @@ where fecha_carga = (select max(j.fecha_carga) from  "CVUY_UCU_resp".ods.anii_fo
 	,subinstitucion
 	,sector programa
 	,pais
-from "CVUY_UCU_resp".ods.anii_formacion_complementaria_posdoctorado
-where fecha_carga = (select max(j.fecha_carga) from  "CVUY_UCU_resp".ods.anii_formacion_complementaria_posdoctorado j where j.ci = ci)</property>
+from "CVUY_UCU_resp".ods.anii_formacion_complementaria_posdoctorado fcp
+where fecha_carga = (select max(j.fecha_carga) from  "CVUY_UCU_resp".ods.anii_formacion_complementaria_posdoctorado j where j.ci = fcp.ci)</property>
                 <property
                   dataType="System.Int32"
                   description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
@@ -2842,8 +2842,8 @@ where fecha_carga = (select max(j.fecha_carga) from  "CVUY_UCU_resp".ods.anii_fo
 	,"subInstitucion" as subinstitucion
 	,programa
 	,pais
-from "CVUY_UCU_resp".ods.anii_formacion_academica_especializacion
-where fecha_carga = (select max(j.fecha_carga) from  "CVUY_UCU_resp".ods.anii_formacion_academica_especializacion j where j.ci = ci)</property>
+from "CVUY_UCU_resp".ods.anii_formacion_academica_especializacion fae
+where fecha_carga = (select max(j.fecha_carga) from  "CVUY_UCU_resp".ods.anii_formacion_academica_especializacion j where j.ci = fae.ci)</property>
                 <property
                   dataType="System.Int32"
                   description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
@@ -3151,8 +3151,8 @@ where fecha_carga = (select max(j.fecha_carga) from  "CVUY_UCU_resp".ods.anii_fo
 	,"subInstitucion" as subInstitucion
 	,programa
 	,pais
-from "CVUY_UCU_resp".ods.anii_formacion_academica_tecnicatura
-where fecha_carga = (select max(j.fecha_carga) from  "CVUY_UCU_resp".ods.anii_formacion_academica_tecnicatura j where j.ci = ci)</property>
+from "CVUY_UCU_resp".ods.anii_formacion_academica_tecnicatura fat
+where fecha_carga = (select max(j.fecha_carga) from  "CVUY_UCU_resp".ods.anii_formacion_academica_tecnicatura j where j.ci = fat.ci)</property>
                 <property
                   dataType="System.Int32"
                   description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
@@ -9056,8 +9056,8 @@ where doc.TIPO_DOCUMENTO = fun.tipo_doc and doc.NRO_DOCUMENTO = fun.documento_nr
                   name="SqlCommand"
                   UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select distinct CONCAT('CI',ci) as documento_id, id_atributo, CONCAT(lugar, CONCAT(' - ',CONCAT(ciudad,CONCAT(' - ',pais)))) as lugarpublicacion,titulo, anio anio_publicado, tipootraproduccion as clase_prod, mediodivulgacion medio
 , 6 as id_produccion, 2 as id_tipo_produccion
-from ods.anii_produccion_otras_prod_cursocd
-where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_otras_prod_cursocd j where j.ci = ci)</property>
+from ods.anii_produccion_otras_prod_cursocd t
+where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_otras_prod_cursocd j where j.ci = t.ci)</property>
                 <property
                   dataType="System.Int32"
                   description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
@@ -9300,8 +9300,8 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_otras_p
                   name="SqlCommand"
                   UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select distinct CONCAT('CI',ci) as documento_id, id_atributo, pais as lugarpublicacion,titulo, anio anio_publicado, descripcion as clase_prod, mediodivulgacion medio
 , 7 as id_produccion, 2 as id_tipo_produccion
-from ods.anii_produccion_otras_prod_desarrollo
-where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_otras_prod_desarrollo j where j.ci = ci)</property>
+from ods.anii_produccion_otras_prod_desarrollo t
+where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_otras_prod_desarrollo j where j.ci = t.ci)</property>
                 <property
                   dataType="System.Int32"
                   description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
@@ -9676,8 +9676,8 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_otras_p
                   name="SqlCommand"
                   UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select distinct CONCAT('CI',ci) as documento_id, id_atributo, CONCAT(editorial,CONCAT(' - ',institucionpromotora)) as lugarpublicacion,titulo, anio anio_publicado, tipootraproduccion as clase_prod, mediodivulgacion medio
 , 8 as id_produccion, 2 as id_tipo_produccion
-from ods.anii_produccion_otras_prod_edicion
-where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_otras_prod_edicion j where j.ci = ci)</property>
+from ods.anii_produccion_otras_prod_edicion t
+where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_otras_prod_edicion j where j.ci = t.ci)</property>
                 <property
                   dataType="System.Int32"
                   description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
@@ -10132,8 +10132,8 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_otras_p
                   name="SqlCommand"
                   UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select distinct CONCAT('CI',ci) as documento_id, id_atributo, CONCAT(nombreproyecto,CONCAT(' - ',CONCAT(institucionfinanciadora,CONCAT(' - ',pais)))) as lugarpublicacion,titulo, anio anio_publicado, tipootraproduccion as clase_prod, mediodivulgacion medio
 , 9 as id_produccion, 2 as id_tipo_produccion
-from ods.anii_produccion_otras_prod_informe
-where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_otras_prod_informe j where j.ci = ci)</property>
+from ods.anii_produccion_otras_prod_informe t
+where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_otras_prod_informe j where j.ci = t.ci)</property>
                 <property
                   dataType="System.Int32"
                   description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
@@ -10376,8 +10376,8 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_otras_p
                   name="SqlCommand"
                   UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select distinct CONCAT('CI',ci) as documento_id, id_atributo, CONCAT(nombre,CONCAT(' - ',CONCAT(ciudad,CONCAT(' - ',pais)))) as lugarpublicacion,titulo, anio anio_publicado, tipootraproduccion as clase_prod, mediodivulgacion medio
 , 10 as id_produccion, 2 as id_tipo_produccion, fecha_carga
-from ods.anii_produccion_otras_prod_mantenimiento
-where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_otras_prod_mantenimiento j where j.ci = ci)</property>
+from ods.anii_produccion_otras_prod_mantenimiento t
+where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_otras_prod_mantenimiento j where j.ci = t.ci)</property>
                 <property
                   dataType="System.Int32"
                   description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
@@ -10940,8 +10940,8 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_otras_p
                   name="SqlCommand"
                   UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select distinct CONCAT('CI',ci) as documento_id, id_atributo, CONCAT(lugar,CONCAT(' - ',CONCAT(ciudad,CONCAT(' - ',pais)))) as lugarpublicacion,titulo, anio anio_publicado, tipootraproduccion as clase_prod, mediodivulgacion medio
 , 11 as id_produccion, 2 as id_tipo_produccion
-from ods.anii_produccion_otras_prod_participacion
-where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_otras_prod_participacion j where j.ci = ci)</property>
+from ods.anii_produccion_otras_prod_participacion t
+where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_otras_prod_participacion j where j.ci = t.ci)</property>
                 <property
                   dataType="System.Int32"
                   description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
@@ -11185,8 +11185,8 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_otras_p
                   UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select distinct CONCAT('CI',ci) as documento_id, id_atributo, CONCAT(institucionpromotora,CONCAT(' - ', lugar, CONCAT(' - ',CONCAT(ciudad,CONCAT(' - ',pais))))) as lugarpublicacion,titulo,
 anio anio_publicado, '' as clase_prod, mediodivulgacion medio
 , 13 as id_produccion, 2 as id_tipo_produccion
-from ods.anii_produccion_otras_producciones_ot_pr_te
-where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_otras_producciones_ot_pr_te j where j.ci = ci)</property>
+from ods.anii_produccion_otras_producciones_ot_pr_te t
+where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_otras_producciones_ot_pr_te j where j.ci = t.ci)</property>
                 <property
                   dataType="System.Int32"
                   description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
@@ -11429,8 +11429,8 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_otras_p
                   name="SqlCommand"
                   UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select distinct CONCAT('CI',ci) as documento_id, id_atributo, CONCAT(emisora,CONCAT(' - ', tema, CONCAT(' - ',CONCAT(ciudad,CONCAT(' - ',pais))))) as lugarpublicacion,titulo, anio anio_publicado, tipootraproduccion as clase_prod, mediodivulgacion medio
 , 12 as id_produccion, 2 as id_tipo_produccion
-from ods.anii_produccion_otras_prod_programatv
-where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_otras_prod_programatv j where j.ci = ci)</property>
+from ods.anii_produccion_otras_prod_programatv t
+where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_otras_prod_programatv j where j.ci = t.ci)</property>
                 <property
                   dataType="System.Int32"
                   description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
@@ -16209,14 +16209,14 @@ FROM ods.usuarios_a_cargar_cv</property>
 concat_ws(',',art.medio1,art.medio2, art.medio3, art.medio4) as medio
 , art.id_produccion, art.id_tipo_produccion
 from (
-select distinct CONCAT('CI',ci) as documento_id, id_atributo, lugarpublicacion, titulo, anio anio_publicado, tipoarticulo as clase_prod
+select distinct ci, CONCAT('CI',ci) as documento_id, id_atributo, lugarpublicacion, titulo, anio anio_publicado, tipoarticulo as clase_prod
 , 1 as id_produccion, 1 as id_tipo_produccion,
 case when scopus = '1' then 'scopus' else null end medio1,
 case when thompson = '1' then 'thompson' else null end medio2,
 case when latindex = '1' then 'latindex' else null end medio3,
 case when scielo = '1' then 'scielo' else null end medio4, fecha_carga
 from ods.anii_produccion_bibliografica_ar_ac_re_ar) as art
-where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliografica_ar_ac_re_ar j where j.ci = ci)</property>
+where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliografica_ar_ac_re_ar j where j.ci = art.ci)</property>
                 <property
                   dataType="System.Int32"
                   description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
@@ -16461,14 +16461,14 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
 concat_ws(',',art.medio1,art.medio2, art.medio3, art.medio4) as medio
 , art.id_produccion, art.id_tipo_produccion
 from (
-select distinct CONCAT('CI',ci) as documento_id, id_atributo, "lugarPublicacion" lugarpublicacion, titulo, anio anio_publicado, "tipoArticulo" as clase_prod
+select distinct ci, CONCAT('CI',ci) as documento_id, id_atributo, "lugarPublicacion" lugarpublicacion, titulo, anio anio_publicado, "tipoArticulo" as clase_prod
 , 1 as id_produccion, 1 as id_tipo_produccion,
 case when scopus = '1' then 'scopus' else null end medio1,
 case when thompson = '1' then 'thompson' else null end medio2,
 case when latindex = '1' then 'latindex' else null end medio3,
 case when scielo = '1' then 'scielo' else null end medio4, fecha_carga
 from ods.anii_produccion_bibliografica_ar_ac_re_no_ar ) as art
-where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliografica_ar_ac_re_no_ar j where j.ci = ci)</property>
+where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliografica_ar_ac_re_no_ar j where j.ci = art.ci)</property>
                 <property
                   dataType="System.Int32"
                   description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
@@ -16713,14 +16713,14 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
 concat_ws(',',art.medio1,art.medio2, art.medio3, art.medio4) as medio
 , art.id_produccion, art.id_tipo_produccion
 from (
-select distinct CONCAT('CI',ci) as documento_id, id_atributo, "lugarPublicacion" lugarpublicacion, titulo, anio anio_publicado, "tipoArticulo" as clase_prod
+select distinct ci, CONCAT('CI',ci) as documento_id, id_atributo, "lugarPublicacion" lugarpublicacion, titulo, anio anio_publicado, "tipoArticulo" as clase_prod
 , 1 as id_produccion, 1 as id_tipo_produccion,
 case when scopus = '1' then 'scopus' else null end medio1,
 case when thompson = '1' then 'thompson' else null end medio2,
 case when latindex = '1' then 'latindex' else null end medio3,
 case when scielo = '1' then 'scielo' else null end medio4, fecha_carga
 from ods.anii_produccion_bibliografica_ar_pu_re_ar ) as art
-where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliografica_ar_pu_re_ar j where j.ci = ci)</property>
+where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliografica_ar_pu_re_ar j where j.ci = art.ci)</property>
                 <property
                   dataType="System.Int32"
                   description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
@@ -16965,14 +16965,14 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
 concat_ws(',',art.medio1,art.medio2, art.medio3, art.medio4) as medio
 , art.id_produccion, art.id_tipo_produccion
 from (
-select distinct CONCAT('CI',ci) as documento_id, id_atributo, "lugarPublicacion" lugarpublicacion, titulo, anio anio_publicado, "tipoArticulo" as clase_prod
+select distinct ci, CONCAT('CI',ci) as documento_id, id_atributo, "lugarPublicacion" lugarpublicacion, titulo, anio anio_publicado, "tipoArticulo" as clase_prod
 , 1 as id_produccion, 1 as id_tipo_produccion,
 case when scopus = '1' then 'scopus' else null end medio1,
 case when thompson = '1' then 'thompson' else null end medio2,
 case when latindex = '1' then 'latindex' else null end medio3,
 case when scielo = '1' then 'scielo' else null end medio4, fecha_carga
 from ods.anii_produccion_bibliografica_ar_pu_re_no_ar ) as art
-where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliografica_ar_pu_re_no_ar j where j.ci = ci)</property>
+where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliografica_ar_pu_re_no_ar j where j.ci = art.ci)</property>
                 <property
                   dataType="System.Int32"
                   description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
@@ -17861,8 +17861,8 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
                   name="SqlCommand"
                   UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select distinct CONCAT('CI',ci) as documento_id, id_atributo, "lugarPublicacion",titulo, anio anio_publicado, "tipoDocumentoTrabajo" as clase_prod, "medioDivulgacion" medio
 , 3 as id_produccion, 1 as id_tipo_produccion
-from ods.anii_produccion_bibliografica_documentos
-where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliografica_documentos j where j.ci = ci)</property>
+from ods.anii_produccion_bibliografica_documentos t
+where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliografica_documentos j where j.ci = t.ci)</property>
                 <property
                   dataType="System.Int32"
                   description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
@@ -18105,8 +18105,8 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
                   name="SqlCommand"
                   UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select distinct CONCAT('CI',ci) as documento_id, id_atributo, "ciudadEditorial" as lugarpublicacion,titulo, anio anio_publicado, "tipoLibro" as clase_prod, "medioDivulgacion" medio
 , 4 as id_produccion, 1 as id_tipo_produccion
-from ods.anii_produccion_bibliografica_libros
-where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliografica_libros j where j.ci = ci)</property>
+from ods.anii_produccion_bibliografica_libros t
+where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliografica_libros j where j.ci = t.ci)</property>
                 <property
                   dataType="System.Int32"
                   description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
@@ -18355,8 +18355,8 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
 	,"medioDivulgacion" medio
 	,2 as id_produccion
 	,1 as id_tipo_produccion
-from ods.anii_produccion_bibliografica_bibliografica_textos
-where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliografica_bibliografica_textos j where j.ci = ci)</property>
+from ods.anii_produccion_bibliografica_bibliografica_textos t
+where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliografica_bibliografica_textos j where j.ci = t.ci)</property>
                 <property
                   dataType="System.Int32"
                   description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
@@ -18599,8 +18599,8 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
                   name="SqlCommand"
                   UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select distinct CONCAT('CI',ci) as documento_id, id_atributo, "ciudadEditorial" as lugarpublicacion,titulo, anio anio_publicado, "clasePublicacion" as clase_prod, "medioDivulgacion" medio
 , 5 as id_produccion, 1 as id_tipo_produccion
-from ods.anii_produccion_bibliografica_trabajos
-where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliografica_libros j where j.ci = ci)</property>
+from ods.anii_produccion_bibliografica_trabajos t
+where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliografica_libros j where j.ci = t.ci)</property>
                 <property
                   dataType="System.Int32"
                   description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
@@ -20224,7 +20224,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
       DTS:LocaleID="-1"
       DTS:ObjectName="Funcionarios Saico"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="3">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0" />
@@ -20243,7 +20243,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
       DTS:LocaleID="-1"
       DTS:ObjectName="Link Vivo"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="4">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0" />
@@ -20262,7 +20262,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
       DTS:LocaleID="-1"
       DTS:ObjectName="Plan Docentes"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="4">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0" />
@@ -20281,7 +20281,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
       DTS:LocaleID="-1"
       DTS:ObjectName="Producciones ANII"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="3">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0" />
@@ -20782,7 +20782,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
     design-time-name="Package\Carga Formación Docente ANII">
     <LayoutInfo>
       <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="179,42"
           Id="Package\Carga Formación Docente ANII\Maestría y Doctorado"
@@ -20850,9 +20850,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -20886,9 +20884,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -20922,9 +20918,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -20958,9 +20952,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -20994,9 +20986,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21018,9 +21008,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21054,9 +21042,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21090,9 +21076,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21126,9 +21110,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21162,9 +21144,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21186,9 +21166,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -21788,7 +21766,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
     design-time-name="Package\Carga Otras Producciones ANII">
     <LayoutInfo>
       <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="231,42"
           Id="Package\Carga Otras Producciones ANII\Mantenimiento ANII PostgreSQL"
@@ -21860,9 +21838,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21896,9 +21872,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21932,9 +21906,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -21968,9 +21940,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -22004,9 +21974,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -22040,9 +22008,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -22064,9 +22030,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -22100,9 +22064,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -22136,9 +22098,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -22172,9 +22132,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -22208,9 +22166,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -22232,9 +22188,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -22329,7 +22283,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
     design-time-name="Package\Carga plan docente">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="204,42"
           Id="Package\Carga plan docente\Extraer de cpt_registropad"
@@ -22357,7 +22311,9 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -22646,7 +22602,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
     design-time-name="Package\Cargar Producciones ANII">
     <LayoutInfo>
       <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="117,42"
           Id="Package\Cargar Producciones ANII\Ordenar"
@@ -22734,9 +22690,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -22770,9 +22724,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -22794,9 +22746,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -22830,9 +22780,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -22866,9 +22814,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -22902,9 +22848,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -22938,9 +22882,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -22974,9 +22916,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -22998,9 +22938,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -23034,9 +22972,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -23058,9 +22994,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -23094,9 +23028,7 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -23130,44 +23062,42 @@ where fecha_carga = (select max(j.fecha_carga) from  ods.anii_produccion_bibliog
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <AnnotationLayout
           Text="Articulos"
           ParentId="Package\Cargar Producciones ANII"
           FontInfo="{assembly:Null}"
-          Size="75,NaN"
+          Size="75,40"
           Id="1e90d6ed-e31b-48b5-9625-b4bef9f4c7b1"
           TopLeft="269,19" />
         <AnnotationLayout
           Text="Textos"
           ParentId="Package\Cargar Producciones ANII"
           FontInfo="{assembly:Null}"
-          Size="130,NaN"
+          Size="130,40"
           Id="39db903b-bb27-4bc9-a4b6-6161b6423c30"
           TopLeft="618,19" />
         <AnnotationLayout
           Text="Documentos"
           ParentId="Package\Cargar Producciones ANII"
           FontInfo="{assembly:Null}"
-          Size="130,NaN"
+          Size="130,40"
           Id="3dc34a47-f71b-435c-a5af-5f9789484868"
           TopLeft="847,19" />
         <AnnotationLayout
           Text="Libros"
           ParentId="Package\Cargar Producciones ANII"
           FontInfo="{assembly:Null}"
-          Size="130,NaN"
+          Size="130,40"
           Id="bffbc9ae-24b5-4749-860d-48999ffab2a2"
           TopLeft="1100,19" />
         <AnnotationLayout
           Text="Trabajos"
           ParentId="Package\Cargar Producciones ANII"
           FontInfo="{assembly:Null}"
-          Size="73,NaN"
+          Size="73,40"
           Id="693a36ff-96f3-45e0-a8e5-60cc8bb1e58d"
           TopLeft="1336,19" />
       </GraphLayout>
