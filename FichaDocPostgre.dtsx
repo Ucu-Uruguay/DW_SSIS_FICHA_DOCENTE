@@ -9,11 +9,11 @@
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="15.0.2000.132"
   DTS:LocaleID="3082"
-  DTS:ObjectName="Package1"
+  DTS:ObjectName="FichaDocPostgre"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="109"
-  DTS:VersionGUID="{5CB1FAB1-5DED-4FDC-BA7E-49DF0076574D}">
+  DTS:VersionBuild="110"
+  DTS:VersionGUID="{45FAFD41-EC6A-4DA6-957F-72DCEB21E550}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>

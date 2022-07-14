@@ -9,11 +9,11 @@
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="15.0.2000.132"
   DTS:LocaleID="3082"
-  DTS:ObjectName="Package1"
+  DTS:ObjectName="FichaDocenteOtrasFuentes"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="14"
-  DTS:VersionGUID="{323FDEFA-3AC6-43B6-A49E-5CF79419222B}">
+  DTS:VersionBuild="15"
+  DTS:VersionGUID="{63A2354E-43E9-44CD-8772-99989FF1CD33}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,12 +27,12 @@
           DTS:ConnectionString="Data Source=10.245.0.30;User ID=Saico_DW;Initial Catalog=UCU;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="kx2Ztca2E0A="
-            IV="WI67tYRLT8nUCPfNjm+hAw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="2zGKdEB8jaM="
+            IV="//3G0Aj3Ua4B0qgNyFav/A==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>WI67tYRLT8nUCPfNjm+hA6Q41hmTelHzGnDMt8BasGDfMPVprvCTrPGcoafRG1Ey6zok3Ey+RqIZel0MhMZsxqrU72V9oIhdxwgCLwVfpR2AK3Oe+vqO+k6NPiy5s2PH/qIAcDc+FIEk9DzZKzQNw29qyqJQV6d+1IaRJTNtMLDuSoRei6i1YYqEoKSZJUp1</CipherValue>
+              <CipherValue>//3G0Aj3Ua4B0qgNyFav/Ex9NaelGMMR5olWPvef/JxeZQPVT3rWCNJsVXyDwtj5o3SEpy1GnnIc6UeRQ9l72cjyxKuq3OR02k35T8qUQSRjLrT+rNLouBb9lHRBwzK0RkvJvFW0OtXPZhl4gl89ALCi5UYnzaF8vIA6rWLU3dxU4dTLvJFGWi5xXWjuWftc</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -48,12 +48,12 @@
           DTS:ConnectionString="Data Source=10.245.0.6;User ID=nodum_read;Initial Catalog=Nodum_Prod;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="qm/PtZ5nQIM="
-            IV="Eqhnk9aN/tvjN/IBRpA8EQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="5TfP5FHUOws="
+            IV="OID38XPY4uAQ9ePmPiGtLw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>Eqhnk9aN/tvjN/IBRpA8EburASb/6/25J1qy0qko8pyzGleEPnk0fOZXk8y0coMR3EcD4gpvWfo89GC/ivcmXX83wbLNwG3JY+yyScFI0zHM+8slqXBWxvWalpr16MnRoLXwBEOKENL9v4baKLwaOlDTodKWDyYbT4cHTO+K0gPrIoqrFeCHqfwn7Wh+giYb</CipherValue>
+              <CipherValue>OID38XPY4uAQ9ePmPiGtLwtDgSC6Dtafob7DcP8lSUMAaFjld/6hwPayjDEf1rY2ch7FbRFYg1otPMcLW7gqgU0/FiGj/mLbHtM7fyki+TEiMpvaHvsLS2Dq8YtuSTfhGqZAerbX+TpOKd6ybsf4XK7/fJYU07HVoPy5ml9vypmGig7BbRQItXXtrJjUaZrW</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -2919,14 +2919,6 @@ where status_ingreso='LIBERADO'
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Carga Cargos\Extrae cargos MAGIX">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Carga Cargos\DT_Cargo">
     <Properties>
       <Property>
@@ -2962,6 +2954,14 @@ where status_ingreso='LIBERADO'
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga Cargos\Extrae cargos MAGIX">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
